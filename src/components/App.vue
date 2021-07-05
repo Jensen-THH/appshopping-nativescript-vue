@@ -26,7 +26,7 @@
           <Footer></Footer>
           <ScrollView>
             <StackLayout height="*" backgroundColor="#ffffff">
-              <Tabs height="1230px">
+              <Tabs height="1230">
                 <TabStrip>
                   <TabStripItem>
                     <Label text="Tất cả"></Label>
@@ -45,8 +45,8 @@
                   </TabStripItem>
             
                 </TabStrip>
-                <TabContentItem>
                     <!--tất cả-->  
+                <TabContentItem>
                     <ScrollView>
                       
                 <StackLayout>
@@ -131,8 +131,8 @@
                                     
                 </TabContentItem>
 
+                  <!--Áo -->         
                 <TabContentItem>
-                  <!--váy -->         
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -159,22 +159,17 @@
                   </ScrollView>
                 </TabContentItem>
 
-                <TabContentItem>
                   <!--váy -->         
+                <TabContentItem>
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
                             <Image src="~/assets/images/banner/banner2 .jpg" stretch="aspectFit" />
                         </GridLayout>
                              <!-- <AutoFocusView></AutoFocusView> -->
-                           <SearchBar
-                            hint="Nhập vào đây"
-                            color="#2c3e50"
-                            width="100%"
-                            v-model="searchQuery"
-                          />
+                        
                           <WrapLayout class="product" orientation="horizontal" itemHeight="auto" itemWidth="177" >
-                             <StackLayout class="item" v-for="(item,index) in filterproduct" :key="index">
+                             <StackLayout class="item" v-for="(item,index) in dress" :key="index">
                             <Image :src="item.images[0]" height="220" width="160" stretch="aspectFit" />
                          <Label class="price" :text="item.price.old" />
 
@@ -187,13 +182,13 @@
                   </ScrollView>
                 </TabContentItem>
 
-                <TabContentItem>
                    <!--Đầm -->         
+                <TabContentItem>
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
                             <Image src="~/assets/images/banner/banner2 .jpg" stretch="aspectFit" />
-                 
+                        </GridLayout>
                           <WrapLayout class="product" orientation="horizontal" itemHeight="auto" itemWidth="177" >
                              <StackLayout class="item" v-for="(item,index) in dress1" :key="index">
                             <Image :src="item.images[0]" height="220" width="160" stretch="aspectFit" />
@@ -208,8 +203,8 @@
                   </ScrollView>
                 </TabContentItem>
                 
-                <TabContentItem>
                    <!--Quần -->         
+                <TabContentItem>
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -247,7 +242,6 @@ export default {
   },
   data() {
     return {
-      searchQuery: null,
       shirt: this.$store.state.shirt,
       dress:  this.$store.state.dress,
       dress1:  this.$store.state.dress1,
@@ -257,70 +251,50 @@ export default {
 
 computed: {
  
-  filterproduct : function(){
-  var list = [];
-  var ten = this.searchQuery
-    if (ten === "" || !ten) {
-      return this.dress;
-    }
+  // filterproduct : function(){
+  // var list = [];
+  // var ten = this.searchQuery
+  //   if (ten === "" || !ten) {
+  //     return this.dress;
+  //   }
    
-    ten = ten.trim().toLowerCase();
-    var items = this.dress.filter(function (item) {
-      if (item.name.toLowerCase().indexOf(ten) != -1) {
-          return item;
-          }
-        });
-    if (items.length > 0) {
-        list = items;
-      }
+  //   ten = ten.trim().toLowerCase();
+  //   var items = this.dress.filter(function (item) {
+  //     if (item.name.toLowerCase().indexOf(ten) != -1) {
+  //         return item;
+  //         }
+  //       });
+  //   if (items.length > 0) {
+  //       list = items;
+  //     }
     
-    return list
-  },
-  filterproductShirt : function(){
-  var list2 = [];
-  var ten = this.searchQueryShirt
-    if (ten === "" || !ten) {
-      return this.dress1;
-    }
+  //   return list
+  // },
+  // filterproductShirt : function(){
+  // var list2 = [];
+  // var ten = this.searchQueryShirt
+  //   if (ten === "" || !ten) {
+  //     return this.dress1;
+  //   }
    
-    ten = ten.trim().toLowerCase();
-    var items = this.dress1.filter(function (item) {
-      if (item.name.toLowerCase().indexOf(ten) != -1) {
-          return item;
-          }
-        });
-    if (items.length > 0) {
-        list2 = items;
-      }
+  //   ten = ten.trim().toLowerCase();
+  //   var items = this.dress1.filter(function (item) {
+  //     if (item.name.toLowerCase().indexOf(ten) != -1) {
+  //         return item;
+  //         }
+  //       });
+  //   if (items.length > 0) {
+  //       list2 = items;
+  //     }
     
-    return list2
-  } 
+  //   return list2
+  // } 
   },
   methods:{ 
  onItemTap({ item }) {
       console.log(`Tapped on ${item.name}`);
     },
-    onLoaded() {
-      // in order to avoid race conditions (only on iOS),
-      // in which the UI may not be completely updated here
-      // we use this.$nextTick call
-      this.$nextTick(() => {
-        const indexToScroll = 49;
-        console.log(
-          "Programmatic scrolling to " +
-            this.itemList[indexToScroll].name +
-            "... "
-        );
-        this.$refs.listView.scrollToIndex(
-          indexToScroll,
-          false,
-          ListViewItemSnapMode.Start
-        );
-      });
-    },
-    onScrolled({ scrollOffset }) {
-      this.scrollOffset = scrollOffset;
-    }
+   
 },
 
 };

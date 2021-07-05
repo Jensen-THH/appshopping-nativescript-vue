@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "606436b820bd941a081ab8cd"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_1_ba54636878624fe4a3c3c7927cd6c572_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_2_10b6a88ab3784933be02940dd6951473_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_3_0a4dcdf1a6924a4dbcad5eb73b4346c2_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_4_102f0603b6774cc28a1591bef07a1c16_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_1_565cab209e99481fb8f189e1a2d2bafd_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_2_0546adc9eaff41e98cedc8221c3fa641_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_3_d68d439595634bf0a2025689a9bb8820_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_4_c56a6a115e854064a91ed928a20f9b70_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_1_ba54636878624fe4a3c3c7927cd6c572_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_2_10b6a88ab3784933be02940dd6951473_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_3_0a4dcdf1a6924a4dbcad5eb73b4346c2_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xanh_cmc12008054nm_4_102f0603b6774cc28a1591bef07a1c16_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_1_565cab209e99481fb8f189e1a2d2bafd_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_2_0546adc9eaff41e98cedc8221c3fa641_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_3_d68d439595634bf0a2025689a9bb8820_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau_cmc12008054nm_4_c56a6a115e854064a91ed928a20f9b70_master.jpg"
+    ],
+    "name": "Váy A mini tầng phối belt",
+    "sku": " CMC12008054N",
+    "price": {
+      "sale": "199,000₫",
+      "old": "399,000₫"
+    },
+    "description": "Miêu tả: Váy A mini tầng phối belt. Size: S/M. Đặc tính: Hiện đại – trẻ trung. Thể loại: Trang phục dạo phố. Màu sắc: Xanh - nâu. Chất liệu: Khaki chéo. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Váy",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "606436ba20bd941a081ab8ce"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/trang-1_a642edff5c1c454fb3e327a686510eb7_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-4_3b0bc31c980744779e5f68eb0cea9b11_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-2_2c25f035f36341dc9ec3b97e03f1b290_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-3_e7ce209a315349bf96b238f3fbfe2676_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_f6e1bb3a7a14401caf3783c89202470e_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_844960b7469d4aae833bc3b5e4ab139e_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_c80b225972f54ef19e3f57f2c3a3c503_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_a0e19b217ff14bde930ed8ae09901a78_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/trang-1_a642edff5c1c454fb3e327a686510eb7_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-4_3b0bc31c980744779e5f68eb0cea9b11_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-2_2c25f035f36341dc9ec3b97e03f1b290_master.jpg",
+      "https://product.hstatic.net/200000000131/product/trang-3_e7ce209a315349bf96b238f3fbfe2676_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_f6e1bb3a7a14401caf3783c89202470e_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_844960b7469d4aae833bc3b5e4ab139e_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_c80b225972f54ef19e3f57f2c3a3c503_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_a0e19b217ff14bde930ed8ae09901a78_master.jpg"
+    ],
+    "name": "Váy midi vạt bèo chéo",
+    "sku": " CMS12004017N",
+    "price": {
+      "sale": "199,000₫",
+      "old": "449,000₫"
+    },
+    "description": "Miêu tả: Váy midi vạt bèo chéo. Size: S/M/L. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen – trắng. Chất liệu: Voan bi họa tiết.Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Váy",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "606436bc20bd941a081ab8cf"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/nau-1_d60673976ddf4dfda95a19c379955812_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-5_0b9af511652f4542abd5bf7018185217_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-2_3eaf674006804c099b1a73774f416f69_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-4_06a16cbd6b90483989cc1369e37944f8_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_05b446289c514a7cb357f6dc8e669078_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_527464430e644ad1a1578e0180aacc75_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_c708c4a689b945de88895292d479f00d_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_5452d3b71773429dabe32fabdc6b573e_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/nau-1_d60673976ddf4dfda95a19c379955812_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-5_0b9af511652f4542abd5bf7018185217_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-2_3eaf674006804c099b1a73774f416f69_master.jpg",
+      "https://product.hstatic.net/200000000131/product/nau-4_06a16cbd6b90483989cc1369e37944f8_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_05b446289c514a7cb357f6dc8e669078_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_527464430e644ad1a1578e0180aacc75_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_c708c4a689b945de88895292d479f00d_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_5452d3b71773429dabe32fabdc6b573e_master.jpg"
+    ],
+    "name": "Váy quần basic",
+    "sku": " BAA200103",
+    "price": {
+      "sale": "199,000₫",
+      "old": "399,000₫"
+    },
+    "description": "Miêu tả: Váy quần basic. Size: S/M/L/XL. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen - Nude. Chất liệu: Bố chỉ nổi. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Váy",
+    "__v": 0
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "6064378a20bd941a081ab90a"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg"
+    ],
+    "name": "Quần kaki jean rách gối",
+    "sku": " BA1912003H",
+    "price": {
+      "sale": "299,000₫",
+      "old": "659,000₫"
+    },
+    "description": "Miêu tả: Quần kaki jean rách gối. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Quần",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6064378e20bd941a081ab90b"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg"
+    ],
+    "name": "Quần kaki jean basic xẻ lai",
+    "sku": " BA1912001H",
+    "price": {
+      "sale": "299,000₫",
+      "old": "659,000₫"
+    },
+    "description": "Miêu tả: Quần kaki jean basic xẻ lai. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Quần",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6064379020bd941a081ab90c"
+    },
+    "images": [
+      "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg",
+      "",
+      "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
+      "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
+      "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg"
+    ],
+    "name": "QUẦN PATH lai lệch",
+    "sku": " BA1911002H",
+    "price": {
+      "sale": "299,000₫",
+      "old": "699,000₫"
+    },
+    "description": "Miêu tả: QUẦN PATH lai lệch. wash Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+    "category": "Quần",
+    "__v": 0
+  }
+]

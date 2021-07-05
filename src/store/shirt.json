@@ -1,0 +1,117 @@
+[
+    {
+        "_id": {
+            "$oid": "60642dc22cb404233ca0cb6f"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/olive-3_78fdf398370446b98658a40cdd9a9169_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-2_138bbce0d536479abf3f4963bcd33c66_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-1_795108b595b04777b9ff4695768cec9b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-3_df163e08e8ee4baaa9e5d19ff46951e4_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-2_21cedc8016b34124a47937e3131c49ae_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-1_39d1139b2bc342ce9bad62664cad49ee_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-4_cd36690a6d8e4da0b19596dfcf68dcbc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-4_a1d3f055f59c48f9a7304b4342ba97a7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-4_23b2e2abbb8746b6bb864d335fc4bcda_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-2_2002f8e2ed1d42e8868085cf25bbeb90_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-3_7491006548cb496ab63c2add034b2662_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-5_a89efa201a484d569c73a38ac31db0c4_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/olive-3_78fdf398370446b98658a40cdd9a9169_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-2_138bbce0d536479abf3f4963bcd33c66_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-1_795108b595b04777b9ff4695768cec9b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-3_df163e08e8ee4baaa9e5d19ff46951e4_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-2_21cedc8016b34124a47937e3131c49ae_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-1_39d1139b2bc342ce9bad62664cad49ee_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xi-mang-4_cd36690a6d8e4da0b19596dfcf68dcbc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/olive-4_a1d3f055f59c48f9a7304b4342ba97a7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-4_23b2e2abbb8746b6bb864d335fc4bcda_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-2_2002f8e2ed1d42e8868085cf25bbeb90_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-3_7491006548cb496ab63c2add034b2662_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-5_a89efa201a484d569c73a38ac31db0c4_master.jpg"
+        ],
+        "name": "Áo sơ mi dài tay",
+        "sku": " CMS1210100",
+        "price": {
+            "sale": "179,000₫",
+            "old": "359,000₫"
+        },
+        "description": "Miêu tả: Áo kiểu dài tay. Size: S/M/L. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục dạo phố, đi làm. Màu sắc: Xanh đen - Xanh olive - Xanh xi măng. Chất liệu: Lụa. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dc52cb404233ca0cb70"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/trang-3_d0ce810523f248a2a155d77901472059_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_76bdf55f8f824f18a4f68cc9cc64cb24_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_276b8c2a4da44b87989613dab4ef64b9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_12ceb4934720458fa1a2ac98263b82bc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_ff4c7c6a4f1343699cbe27a025d6d21e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_93e52cb6e4184ba6a3275486e4219ebb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_256f03e1dbb14268a43b446c370a877b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_95812447611d4c84a9d13683d62ebf59_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/trang-3_d0ce810523f248a2a155d77901472059_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_76bdf55f8f824f18a4f68cc9cc64cb24_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_276b8c2a4da44b87989613dab4ef64b9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_12ceb4934720458fa1a2ac98263b82bc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_ff4c7c6a4f1343699cbe27a025d6d21e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_93e52cb6e4184ba6a3275486e4219ebb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_256f03e1dbb14268a43b446c370a877b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_95812447611d4c84a9d13683d62ebf59_master.jpg"
+        ],
+        "name": "Áo sơ mi cột dây",
+        "sku": " TDS1210102",
+        "price": {
+            "sale": "199,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: Áo sơ mi cột dây. Size: S/M/L. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục đi làm. Màu sắc: Trắng, hồng. Chất liệu: Chiffon poly. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dc82cb404233ca0cb71"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-2_7ef20340cebe4024ac163b68407dbe0c_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_66702df8f6a645c68d59b59ce536ef93_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_33fb21525d894e378526d33513188e3b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_2ac7248c2a104e9eb8de0dce38283bd7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_85199b8ef3a5404a8fff25a28101c7c8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_32dae77d47df4eecb6b20775180aad6b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_ccdeb31d616047b5b00f4498f16568cd_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_cd61179673ad47b1ba475b1684886652_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_8b7fdc838ce14e6f8794567aecf8c0ec_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_8c0c9f2a2eff461ab874a2cd967ab63c_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_9a2d376b506441a89663f1ebe41da892_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_de8559cef2af46e9b6f24fd604422f8b_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-2_7ef20340cebe4024ac163b68407dbe0c_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_66702df8f6a645c68d59b59ce536ef93_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_33fb21525d894e378526d33513188e3b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_2ac7248c2a104e9eb8de0dce38283bd7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_85199b8ef3a5404a8fff25a28101c7c8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_32dae77d47df4eecb6b20775180aad6b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_ccdeb31d616047b5b00f4498f16568cd_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_cd61179673ad47b1ba475b1684886652_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_8b7fdc838ce14e6f8794567aecf8c0ec_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_8c0c9f2a2eff461ab874a2cd967ab63c_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_9a2d376b506441a89663f1ebe41da892_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_de8559cef2af46e9b6f24fd604422f8b_master.jpg"
+        ],
+        "name": "Áo thun in “Imperfect Perfection”",
+        "sku": " BAC1210102",
+        "price": {
+            "sale": "174,000₫",
+            "old": "249,000₫"
+        },
+        "description": "Miêu tả: Áo thun in “Imperfect Perfection”. Size: S/M/L. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xanh - Hồng. Chất liệu: Thun. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    }
+]

@@ -20,33 +20,13 @@
         <Label class="drawer-item" text="Contact" />
         <Label class="drawer-item" text="Support" />
       </StackLayout>
-
       <GridLayout ~mainContent columns="*" rows="*">
         <DockLayout stretchLastChild="true" backgroundColor="#ffffff">
           <Footer></Footer>
           <ScrollView>
             <StackLayout height="*" backgroundColor="#ffffff">
-              <Tabs height="1230">
-                <TabStrip>
-                  <TabStripItem>
-                    <Label text="Tất cả"></Label>
-                  </TabStripItem>
-                  <TabStripItem>
-                    <Label text="Áo"></Label>
-                  </TabStripItem>
-                  <TabStripItem>
-                    <Label text="Váy"></Label>
-                  </TabStripItem>
-                  <TabStripItem>
-                    <Label text="Đầm"></Label>
-                  </TabStripItem>
-                  <TabStripItem>
-                    <Label text="Quần"></Label>
-                  </TabStripItem>
-            
-                </TabStrip>
-                    <!--tất cả-->  
-                <TabContentItem>
+              <TabView height="1230">
+                <TabViewItem title="Tất cả">
                     <ScrollView>
                       
                 <StackLayout>
@@ -129,10 +109,10 @@
                 </StackLayout>       
                     </ScrollView>
                                     
-                </TabContentItem>
+                </TabViewItem>
 
                   <!--Áo -->         
-                <TabContentItem>
+                <TabViewItem title="Áo" >
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -157,10 +137,10 @@
                           </WrapLayout>
                     </StackLayout>
                   </ScrollView>
-                </TabContentItem>
+                </TabViewItem>
 
                   <!--váy -->         
-                <TabContentItem>
+                <TabViewItem title="Váy">
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -180,10 +160,10 @@
                           </WrapLayout>
                     </StackLayout>
                   </ScrollView>
-                </TabContentItem>
+                </TabViewItem>
 
                    <!--Đầm -->         
-                <TabContentItem>
+                <TabViewItem title="Đầm">
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -201,10 +181,10 @@
                           </WrapLayout>
                     </StackLayout>
                   </ScrollView>
-                </TabContentItem>
+                </TabViewItem>
                 
                    <!--Quần -->         
-                <TabContentItem>
+                <TabViewItem title="Quần">
                   <ScrollView>
                     <StackLayout class="products" height="auto">
                         <GridLayout rows="auto">
@@ -223,9 +203,9 @@
                           </WrapLayout>
                     </StackLayout>
                   </ScrollView>
-                </TabContentItem>
+                </TabViewItem>
               
-              </Tabs>
+              </TabView>
             </StackLayout>
           </ScrollView>
         </DockLayout>

@@ -1,38 +1,113 @@
 <template>
-     <StackLayout class="products" height="auto">
-                        <GridLayout rows="auto">
-                            <Image src="~/assets/images/banner/banner2 .jpg" stretch="aspectFit" />
-                        </GridLayout>
-                        
-                          <WrapLayout class="product" orientation="horizontal" itemHeight="auto" itemWidth="177" >
-                             <StackLayout class="item" v-for="item in dress" :key="item">
-                            <Image :src="item.images[0]" height="220" width="160" stretch="aspectFit" />
-                         <Label class="price" :text="item.price.old" />
 
-                            <Label :text="item.name" textWrap="true" />
-                            
-                          </StackLayout>
-                       
-                          </WrapLayout>
+<Page>
+  
+
+  <StackLayout>
+     <FlexboxLayout backgroundColor="white" alignItems="center"  justifyContent="space-between" >
+           <Image margin="10" @tap="$modal.close" horizontalAlignment="left" alignSelf="center" src="~/assets/images/iconshopingapp/login.png" stretch="none" />
+            <Label  alignSelf="center" horizontalAlignment="right" class="price-sale" padding="10" :text="product.category" textWrap="true" />
+    </FlexboxLayout>
+    <ScrollView>
+     <FlexboxLayout backgroundColor="white" flexDirection="column-reverse" justifyContent="space-between">
+            <StackLayout  alignSelf="center" width="auto" height="auto">
+                <!-- <GridLayout rows="250" columns="*">
+                  <Image :src="product.images[0]" alt="" />
+                </GridLayout> -->
+                    <GridLayout height="500" width="auto">
+                        <Carousel
+                            ref="myCarousel"
+                            debug="true"
+                        
+                            :items="product.images"
+                            colow="white"
+                            @pageChanged="myChangePageEvent"
+                            indicatorColor="#d1cbc5"
+                            indicatorColorUnselected="#f0ece9"
+                            ios:autoPagingInterval="3"
+                            android:indicatorAnimation="swap"
+                        >
+                            <CarouselItem
+                            v-for="(item, i) in product.images"
+                            :key="i"
+                            verticalAlignment="middle"
+                            @tap="myTapPageEvent"
+                            >
+                        
+                            <GridLayout>
+                                <Image :src="item"></Image>
+                                <!-- <Label :text="item.title" horizontalAlignment="center" backgroundColor="#50000000" height="30"></Label> -->
+                            </GridLayout>
+                            </CarouselItem> 
+                        </Carousel>
+                    </GridLayout>
+                    <StackLayout width ="300">
+                                
+                        <Label class="name" :text="product.name" textWrap="true" />
+            
+                        <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                        <Label  horizontalAlignment="left" class="price-sale" text="Giá gốc: " width="auto" textWrap="true" />
+                        <Label  horizontalAlignment="right" class="price" width="auto" :text="product.price.old" textWrap="true" />
+                    </FlexboxLayout>
+                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                        <Label  horizontalAlignment="left" class="price-sale" text="Giá sale: " width="auto" textWrap="true" />
+                        <Label horizontalAlignment="right" class="price-sale" :text="product.price.sale" textWrap="true" />
+                    </FlexboxLayout>
+                        <Label  :text="'SKU: '+product.sku" textWrap="true" />
+                        <Button text="add" />
+                        <Label class="description" :text="product.description | newline" textWrap="true" />
                     </StackLayout>
+                    
+                
+            </StackLayout>
+
+    </FlexboxLayout>
+    </ScrollView>
+  </StackLayout>
+</Page>
+
 </template>
 
 <script>
 
 export default ({
    props:{
-       dress:{
+       product:{
            type:Object,
-           default:[]
+           default:{}
        }
    },
    methods:{
 
-   }
+   },
+     watch: {
+      async product(to) {
+          await this.$nextTick()
+          this.$refs.myCarousel.nativeView.refresh();
+      },
+  },
+  filters: {
+  newline: function (value) {
+    if (!value) return ''
+    value = value.toString()
+    let re = /\./gi;
+    let re1 = /\-/gi;
+    var value1= value.replace(re,'.\n + \t')
+    let endstring = value1.length
+    let value2 =  value1.replace(re1,'')
+    return value2.slice(0,endstring-13)
+    // return value.split('.').join('\n +');
+  }
+},
 })
 </script>
 
 <style scoped>
+.description{
+    font-size: 15;
+    text-align: left;
+    color: black;
+}
 .products{
     display: block;
    align-items: center;
@@ -54,7 +129,21 @@ export default ({
     background-color: #f2f2f2;
 }
 .price{
-    margin-top: -40px;
-    background: #d6b627;
+   font-size: 18;
+    text-decoration: line-through;
+    color: black;
+
+}
+.price-sale{
+font-size: 18;
+    color: black;
+
+}
+.name{
+    text-align: center;
+    font-size: 20;
+    text-transform:uppercase;
+    color: black;
+
 }
 </style>

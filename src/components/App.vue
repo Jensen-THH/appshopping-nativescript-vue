@@ -2,7 +2,7 @@
   <Page>
     <!-- <Header></Header> -->
     <ActionBar backgroundColor="White">
-      <GridLayout width="100%" columns="auto, *" >
+      <GridLayout width="100%" columns="auto, *,auto" >
         <!-- <Label
           class="open-drawer-btn"
           text="▤"
@@ -12,6 +12,8 @@
           col="0" class="open-drawer-btn" src="~/assets/images/iconshopingapp/navigation-menu-2.png" stretch="none" />
         
         <Label class="title" text="JS" col="1" />
+        <Label class="title" @tap = "gotouser" text="User" col="2" />
+
       </GridLayout>
     </ActionBar>
     <RadSideDrawer ref="drawer">
@@ -290,6 +292,7 @@ const filterproduct = (product,name)=>{
   };
 import Footer from "./include/footer.vue";
 import Product from "./allproduct/products.vue"
+import user from './user.vue'
 export default {
   components: {
     Footer,
@@ -332,6 +335,9 @@ computed: {
   },
   },
   methods:{ 
+    gotouser(){
+      this.$navigateTo(user)
+    },
  onItemTap({ item }) {
       console.log(`Tapped on ${item.name}`);
       this.$showModal(Product, { fullscreen: true, props: { product: item }});

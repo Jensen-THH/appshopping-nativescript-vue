@@ -7,7 +7,15 @@ import dress from './dress.json';
 import dress1 from './dress1.json';
 import pant from './pant.json';
 Vue.use(Vuex);
-
+let guid = () => {
+  let s4 = () => {
+      return Math.floor((1 + Math.random()) * 0x10000)
+          .toString(16)
+          .substring(1);
+  }
+  //return id of format 'aaaaaaaa'-'aaaa'-'aaaa'-'aaaa'-'aaaaaaaaaaaa'
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+}
 
 const Products = new Store({
   state: {
@@ -85,9 +93,10 @@ const Products = new Store({
         "__v": 0
       },
     ],
+    infouser:{},
     users:[
-      {username:'admin',password:'admin'},
-      {username:'jensen',password:'123456'},
+      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',username:'admin',password:'admin',name:'Tran Gia Bao',phone:'0123456789'},
+      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',username:'jensen',password:'123456',name:'Tran Jensen',phone:'0123456710'},
     ]
 
   },
@@ -98,6 +107,21 @@ const Products = new Store({
           Object.assign(state.cart, JSON.parse(ApplicationSettings.getString("store")))
         );
       }
+    },
+    getinfo(state,info){
+      for(var i = 0;i < state.users.length ;++i){
+        if(state.users[i].username == info){
+          state.infouser = state.users[i]
+          break;
+        }
+      }
+    }
+    ,
+    adduser(state, data){
+      data.id = guid()
+      console.log(data)
+      state.users.push(data)
+
     },
     add(state, data) {
       var numberr = 0

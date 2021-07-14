@@ -84,7 +84,11 @@ export default ({
    methods:{
        addCart(product){
            this.$store.commit("add", product);
-           alert('Đã thêm thành công!')
+           alert({
+                    title: "JSshop",
+                    message: 'Đã thêm thành công!',
+                    okButtonText: "Ok"
+                  })
        },
        loveit(product){
            alert('Đã thêm vào danh sách yêu thích của bạn!')

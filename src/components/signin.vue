@@ -20,7 +20,7 @@
           <Button text="Login" @tap="onButtonTap" class="my-button" />
 
           <FlexboxLayout alignItems="center" justifyContent="space-between" class="auth-buttons">
-            <Label horizontalAlignment="left" text="Create Account" />
+            <Label horizontalAlignment="left" @tap="create" text="Create Account" />
             <Label horizontalAlignment="right" text="Forgot Password" />
           </FlexboxLayout>
         </StackLayout>
@@ -33,6 +33,7 @@
 
 <script>
 import app from './App.vue';
+import signup from './signup.vue';
 import * as ApplicationSettings from 'tns-core-modules/application-settings';
 export default {
   data() {
@@ -42,6 +43,9 @@ export default {
     }
   },
   methods: {
+    create(){
+      this.$navigateTo(signup)
+    },
     onButtonTap(){
         var users = this.$store.state.users
           var err = 0 
@@ -49,6 +53,7 @@ export default {
           for (var i = 0; i < users.length; ++i){
             if(users[i].username== this.usernameInput && users[i].password == this.passwordInput ){
                ApplicationSettings.getString('is_logged_in') == 'true'
+               this.$store.commit('getinfo',this.usernameInput)
               this.$navigateTo(app,{clearHistory:true})
               err = 0
               break;

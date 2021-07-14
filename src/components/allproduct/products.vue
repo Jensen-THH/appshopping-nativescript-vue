@@ -53,8 +53,12 @@
                         <Label  horizontalAlignment="left" class="price-sale" text="Giá sale: " width="auto" textWrap="true" />
                         <Label horizontalAlignment="right" class="price-sale" :text="product.price.sale" textWrap="true" />
                     </FlexboxLayout>
-                        <Label  :text="'SKU: '+product.sku" textWrap="true" />
-                        <Button text="add" />
+                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                        <Label horizontalAlignment="left" color="black" :text="'SKU: '+product.sku" textWrap="true" />
+                        <Image horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="loveit(product)" stretch="none" />
+                        
+                    </FlexboxLayout>
+                        <Button text="add" @tap="addCart(product)" />
                         <Label class="description" :text="product.description | newline" textWrap="true" />
                     </StackLayout>
                     
@@ -78,7 +82,13 @@ export default ({
        }
    },
    methods:{
-
+       addCart(product){
+           this.$store.commit("add", product);
+           alert('Đã thêm thành công!')
+       },
+       loveit(product){
+           alert('Đã thêm vào danh sách yêu thích của bạn!')
+       }
    },
      watch: {
       async product(to) {

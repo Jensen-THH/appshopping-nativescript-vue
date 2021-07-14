@@ -46,7 +46,7 @@
   </GridLayout>
 </template>
 <script >
-import scrollx from "../test.vue";
+import Cart from "../cart.vue";
 
 export default {
   data() {
@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     test() {
-      this.$navigateTo(scrollx, {
+      this.$navigateTo(Cart, {
         transition: {
           name: "slideLeft",
           duration: 300,

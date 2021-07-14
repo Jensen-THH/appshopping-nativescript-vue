@@ -1,5 +1,6 @@
 import Vue from 'nativescript-vue'
 import App from './components/App'
+import Signin from './components/signin'
 
 import Products from './store/index'
 import Vuex from 'vuex'
@@ -9,6 +10,7 @@ import Vuex from 'vuex'
 import RadListView from 'nativescript-ui-listview/vue';
 Vue.use(RadListView);
 Vue.registerElement('AutoFocusView', () => require('./searchbarfocus').AutoFocusView)
+// Vue.registerElement("Gradient", () => require("nativescript-gradient").Gradient);
 
 Vue.registerElement('Carousel', () => require('nativescript-carousel').Carousel);
 Vue.registerElement('CarouselItem', () => require('nativescript-carousel').CarouselItem);
@@ -22,7 +24,12 @@ Vue.registerElement(
   () => require('nativescript-ui-sidedrawer').RadSideDrawer
 )
 
+
+import * as ApplicationSettings from 'tns-core-modules/application-settings';
+function isLoaddedIn() {
+  return ApplicationSettings.getString('is_logged_in') == 'false';
+}
 new Vue({
   store:Products,
-  render: h => h('frame', [h(App)])
+  render: h => h('frame', [h(isLoaddedIn() ? App : Signin)])
 }).$start()

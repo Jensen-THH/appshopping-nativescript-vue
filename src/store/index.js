@@ -95,8 +95,12 @@ const Products = new Store({
     ],
     infouser:{},
     users:[
-      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',username:'admin',password:'admin',name:'Tran Gia Bao',phone:'0123456789'},
-      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',username:'jensen',password:'123456',name:'Tran Jensen',phone:'0123456710'},
+      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',username:'admin',password:'admin',name:'Tran Gia Bao',phone:'0123456789',
+      chat:[{productID:'6064365720bd941a081ab8b3',comment:'Bình luận sản phẩm'}]
+    },
+      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',username:'jensen',password:'123456',name:'Tran Jensen',phone:'0123456710',
+      chat:[{productID:'6064365720bd941a081ab8b3',comment:'Bình luận sản phẩm'}]
+    },
     ]
 
   },
@@ -107,6 +111,18 @@ const Products = new Store({
           Object.assign(state.cart, JSON.parse(ApplicationSettings.getString("store")))
         );
       }
+    },
+    addchat(state,data){
+        var comment={}
+        comment.productID = data.productID
+        comment.comment = data.comment
+        for(var i = 0 ; i < state.users.length; ++i ){
+          if ( state.users[i].id  == data.id){
+            console.log('added comment')
+            state.users[i].chat.push(comment)
+            break;
+          }
+        }
     },
     getinfo(state,info){
       for(var i = 0;i < state.users.length ;++i){
@@ -119,6 +135,7 @@ const Products = new Store({
     ,
     adduser(state, data){
       data.id = guid()
+      data.chat =[]
       console.log(data)
       state.users.push(data)
 

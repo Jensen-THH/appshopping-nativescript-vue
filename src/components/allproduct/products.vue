@@ -57,12 +57,27 @@
                         <Label horizontalAlignment="left" color="black" :text="'SKU: '+product.sku" textWrap="true" />
                         <Image horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="loveit(product)" stretch="none" />
                         
-                    </FlexboxLayout>
+                     </FlexboxLayout>
                         <Button text="add" @tap="addCart(product)" />
                         <Label class="description" :text="product.description | newline" textWrap="true" />
+                        <GridLayout rows="50" columns="*,auto">
+                        <TextField hint="Nhập bình luận..." col="0" v-model="binhluan" />
+                        <Button text="Send" col="1" @tap="send" />
+                        </GridLayout>
                     </StackLayout>
-                    
-                
+                <StackLayout>
+                  <Label text="Comment:" textWrap="true" />
+                     <RadListView ref="listView"
+                        for="item in comment"
+                        @itemTap="onItemTap">
+                        <v-template>
+                        <StackLayout alignSelf="left" class="item" orientation="vertical">
+                            <Label paddingLeft="10" :text="item.comment" textWrap="true"  color="black"></Label>
+                        </StackLayout>
+                        </v-template>
+                    </RadListView>
+                 
+                </StackLayout>
             </StackLayout>
 
     </FlexboxLayout>
@@ -75,13 +90,46 @@
 <script>
 
 export default ({
+
    props:{
        product:{
            type:Object,
            default:{}
        }
    },
+   data(){
+       return{
+           cmm : this.$store.state.users,
+           user : this.$store.state.infouser,
+           binhluan: ''
+       }
+   },
+   computed:{
+       comment:function () { 
+        
+               var comment =[]
+               this.cmm.forEach(element => {
+                   element.chat.forEach(ele => {
+                          if(ele.productID == this.product._id.$oid){
+                              comment.push(ele)
+                          }
+                   });
+               });
+               return comment
+
+        }
+   },
    methods:{
+       send(){
+          var data ={}
+          data.productID = this.product._id.$oid
+          data.comment = this.user.name +': '+ this.binhluan
+          data.id = this.user.id
+            if (this.binhluan != ''){
+                this.$store.commit('addchat',data)
+                this.binhluan = ''
+            }
+       },
        addCart(product){
            this.$store.commit("add", product);
            alert({

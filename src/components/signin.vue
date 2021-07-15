@@ -3,17 +3,17 @@
     <ActionBar title="Login" backgroundColor="white" color="black" class="action-bar" />
     <!-- <Gradient direction="to right" colors="#39B994, #337FC7"> -->
         <!-- <Gradient direction="to right" colors="#FF0077, red, #FF00FF"> -->
-      <FlexboxLayout backgroundColor="gray" flexDirection="column" justifyContent="center" class="full-height">
-        <Image src="~/assets/images/map.png" class="logo-container "/>
+      <FlexboxLayout  flexDirection="column" justifyContent="center" class="full-height">
+        <Image src="~/assets/images/icon/c1d48130-b517-47a9-8b8a-6200c3ffe19e_200x200.png" class="logo-container "/>
 
         <StackLayout class="container">
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/user.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
           </FlexboxLayout>
 
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="passwordInput" hint="Password" secure="true" class="form-input" />
           </FlexboxLayout>
 
@@ -88,20 +88,21 @@ export default {
 <style lang="scss">
   .border-bottom {
     border-bottom-width: 1;
-    border-bottom-color: white;
+    border-bottom-color: rgb(0, 0, 0);
     margin-bottom: 40;
     padding-bottom: 8;
   }
   .form-input {
-    color: white;
-    placeholder-color: white;
+    width: 80%;
+    color: black;
+    placeholder-color: black;
   }
   .icon-margin {
     margin-right: 10;
   }
   .my-button {
     background-color: #4BD5DC;
-    color: white;
+    color: black;
     font-weight: bold;
     border-radius: 25;
     padding-top: 14;
@@ -112,11 +113,12 @@ export default {
     margin-top: 10;
   }
   .auth-buttons {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 14;
   }
   .full-height {
     height: 100%;
+    background: #f0f0f0;
   }
   .logo-container {
     width: 150;

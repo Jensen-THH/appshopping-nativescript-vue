@@ -1,8 +1,9 @@
 <template>
   <Page>
-   <ActionBar title="Cart" icon="">
+   <ActionBar title="Cart"  backgroundColor="white">
      <NavigationButton text="Back" android.systemIcon="ic_menu_back" @tap="gotoapp" />
      <!-- <ActionItem icon="" text="Left" ios.position="left" @tap="" /> -->
+     <Image  src="~/assets/images/icon/logo.png" class="logo" stretch="aspectFill" />
      <ActionItem icon="" text="Checkout" ios.position="right" />
    </ActionBar>
      
@@ -11,60 +12,21 @@
 
     <GridLayout rows="*" columns="*">
       <DockLayout stretchLastChild="true" backgroundColor="#ffffff">
+      <Footer dock="bottom"></Footer>
         <GridLayout
-      dock="bottom"
+      dock="top"
       color="black"
     backgroundColor="#ffffff"
-        columns="auto,*,auto,auto"
+        columns="*,auto"
         rows="auto"
         verticalAlignment="top"
       >
-        <Label text="Tổng" col="0" colSpan="2" />
-        <Label :text="itemCount" col="2" margin="10" />
-        <Label class="total" :text="total" col="3" margin="10" />
+        <Label :text="'Tổng: '+itemCount" col="0" margin="10" />
+        <Label class="total" :text="total" col="1" margin="10" />
       </GridLayout>
-      
+
       <ScrollView>
-        <!-- <StackLayout height="auto">
-        <GridLayout
-            :key="item.index"
-            v-for="item in getCart"
-            columns="auto,*,auto,auto"
-            rows="auto,50"
-            verticalAlignment="top"
-        >
-            <Image
-            :src="item.images[0]"
-            height="30"
-            width="30"
-            col="0"
-            horizontalAlignment="left"
-            verticalAlignment="bottom"
-            margin="3"
-            />
-            <Label
-            :text="item.name"
-            col="1"
-            horizontalAlignment="left"
-            verticalAlignment="bottom"
-            margin="10"
-            />
-            <Label
-            :text="item.quantity"
-            col="2"
-            horizontalAlignment="left"
-            verticalAlignment="bottom"
-            margin="10"
-            />
-            <Label
-            :text="item.price.sale"
-            col="3"
-            horizontalAlignment="left"
-            verticalAlignment="bottom"
-            margin="10"
-            />
-        </GridLayout>
-    </StackLayout> -->
+       
 
     <!-- ========================================= -->
             <GridLayout orientation="vertical" rows="auto, *">
@@ -76,11 +38,11 @@
       >
       
         <v-template>
-          <GridLayout backgroundColor="white" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
-              <Image :src="item.images[0]"  width="180" col="0"  horizontalAlignment="left" verticalAlignment="bottom"
+          <GridLayout  backgroundColor="white" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
+              <Image @tap="gotoproduct(item)" :src="item.images[0]"  width="180" col="0"  horizontalAlignment="left" verticalAlignment="bottom"
                   margin="3" />
               <StackLayout col="1">
-                 <Label :text="item.name" fontSize="17" width="150" textWrap="true" margin="10" />
+                 <Label @tap="gotoproduct(item)" :text="item.name" fontSize="17" width="150" textWrap="true" margin="10" />
                   <GridLayout   rows="*" columns="50,50,50" margin="5">
                     <Button text="-" col="0" @tap="tru(item)" width="50" />
                     <Label :text="item.quantity" col="1" horizontalAlignment="left" verticalAlignment="bottom" margin="10" />
@@ -105,11 +67,10 @@
               orientation="horizontal"
               @tap="onLeftSwipeClick"
             >
-              <Label
-                text="mark"
-                verticalAlignment="center"
-                horizontalAlignment="center"
-              />
+           
+              <Image  verticalAlignment="center"
+                horizontalAlignment="center" src="~/assets/images/iconshopingapp/love-it-circle.png" stretch="none" />
+              
             </StackLayout>
             <StackLayout
               id="delete-view"
@@ -118,11 +79,10 @@
               orientation="horizontal"
               @tap="onRightSwipeClick"
             >
-              <Label
-                text="delete"
-                verticalAlignment="center"
-                horizontalAlignment="center"
-              />
+           
+               <Image  verticalAlignment="center"
+                horizontalAlignment="center" src="~/assets/images/icon/bin-paper-1.png" stretch="none" />
+              
             </StackLayout>
           </GridLayout>
         </v-template>
@@ -146,10 +106,15 @@
       
 <script>
 // var frameModule = require("ui/frame");
+// import Footer from './include/footer.vue'
 import cart from './cart.vue'
 import app from './App.vue'
+import product  from './allproduct/products.vue'
 export default {
-
+ name: 'ParentComponent',
+  components: {
+   Footer: () => import('./include/footer.vue'),
+  },
   data() {
     return {
       cart2:[]
@@ -157,6 +122,7 @@ export default {
   },
   
   computed: {
+   
     getCart:function(){
       return this.cart2 = this.$store.state.cart
     },
@@ -182,8 +148,37 @@ export default {
     },
   },
   methods:{
+    
+     gotoproduct(item){
+       console.log(item.price)
+      this.$navigateTo(product, {props :{product:item},
+      transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        }
+      })
+    },
+     gotocart() {
+      this.$navigateTo(cart, {
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      });
+    },
+    haha() {
+      console.log("xxx");
+    },
     gotoapp(){
-      this.$navigateTo(app)
+      this.$navigateTo(app, {
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      });
     },
       cong(item){
         this.$store.commit("cong", item);
@@ -206,17 +201,16 @@ export default {
       swipeLimits.threshold = leftItem.getMeasuredWidth() / 2;
     },
     onLeftSwipeClick({ object }) {
-      var item = {};
-      var position = this.$store.state.cart.indexOf(object.bindingContext);
-      item = this.$store.state.cart.slice(position, parseInt(position) + 1);
+      var position =this.$store.state.cart.indexOf(object.bindingContext)
+      var product = this.$store.state.cart[position]
+      this.$store.commit('addlove',product)
+      console.log(this.$store.state.love)
+      alert({
+         title: "JSshop",
+          message: 'Đã thêm vào danh sách yêu thích!',
+          okButtonText: "Ok"
+      })
 
-      console.log(typeof item);
-      this.$showModal(edititem, { props: { item: item } }).then((data) => {
-        // editItem(data);
-        console.log(data);
-        // this.itemList.splice(position, 1, data);
-        this.$refs.listView.notifySwipeToExecuteFinished();
-      });
     },
  
 
@@ -251,11 +245,40 @@ ActionBar {
 .right {
   width: 80;
   padding: 5 10 5 10;
-  background-color: red;
+  background-color: rgb(248, 129, 129);
+  text-align: center;
+  justify-content: space-between;
+}
+.right Label{
+  text-align: center;
 }
 .left {
   width: 80;
   padding: 5 10 5 10;
-  background-color: yellow;
+  background-color: pink;
+}
+.right Image{
+  margin-left:17 ;
+}
+.left Image{
+  margin-left:13 ;
+  align-items: center;
+
+}
+.img {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+GridLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height: 50;
+  width: 100;
+  
 }
 </style>

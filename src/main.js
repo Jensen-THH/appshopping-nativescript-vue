@@ -31,5 +31,6 @@ function isLoaddedIn() {
 }
 new Vue({
   store:Products,
-  render: h => h('frame', [h(isLoaddedIn() ? App : Signin)])
+  render: h => h('frame', [h(App)])
+  // render: h => h('frame', [h(isLoaddedIn() ? App : Signin)])
 }).$start()

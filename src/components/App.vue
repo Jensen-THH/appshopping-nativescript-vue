@@ -1,7 +1,7 @@
 <template>
   <Page>
     <!-- <Header></Header> -->
-    <ActionBar backgroundColor="White">
+    <ActionBar backgroundColor="white">
       <GridLayout width="100%" columns="auto, *,auto" >
         <!-- <Label
           class="open-drawer-btn"
@@ -9,10 +9,12 @@
           -->
         />
         <Image  @tap="$refs.drawer.nativeView.showDrawer()"
-          col="0" class="open-drawer-btn" src="~/assets/images/iconshopingapp/navigation-menu-2.png" stretch="none" />
+          col="0" class="open-drawer-btn" src="~/assets/images/icon/navigation-menu - Copy.png"  stretch="none" />
+        <!-- <Label text="ha" col="1" textWrap="true" /> -->
+        <Image col="1" src="~/assets/images/icon/logo.png" class="logo" stretch="aspectFill" />
         
-        <Label class="title" text="JS" col="1" />
-        <Label class="title" @tap = "gotouser" text="User" col="2" />
+        <!-- <Image col="1" src="~/assets/images/icon/c1d48130-b517-47a9-8b8a-6200c3ffe19e_200x200.png" height="48" stretch="aspectFill" /> -->
+        <Image src="~/assets/images/icon/user.png" class="user" @tap = "gotouser" col="2" height="30" width="30" stretch="aspectFill" />
 
       </GridLayout>
     </ActionBar>
@@ -26,7 +28,7 @@
       </StackLayout>
       <GridLayout ~mainContent columns="*" rows="*">
         <DockLayout stretchLastChild="true" backgroundColor="#ffffff">
-          <Footer></Footer>
+          <Footer  dock="bottom"></Footer>
             <StackLayout height="auto" backgroundColor="#ffffff">
               <TabView backgroundColor="white" color="black" height="auto">
                 
@@ -340,11 +342,11 @@ computed: {
     },
  onItemTap({ item }) {
       console.log(`Tapped on ${item.name}`);
-      this.$showModal(Product, { fullscreen: true, props: { product: item }});
+      this.$navigateTo(Product, {  props: { product: item }});
     },
     itemTap(item){
       console.log(item.name)
-      this.$showModal(Product, { fullscreen: true, props: { product: item }});
+      this.$navigateTo(Product, {  props: { product: item }});
     },
    myTapPageEvent(args) {
     console.log('Tapped page index: ' + this.$refs.myCarousel.nativeView.selectedPage);
@@ -451,5 +453,13 @@ ActionBar {
 .open-drawer-btn{
   align-items: center;
   margin-top:12;
+}
+.logo{
+  height: 50;
+  width: 100;
+  
+}
+.user{
+  margin-right: 10;
 }
 </style>

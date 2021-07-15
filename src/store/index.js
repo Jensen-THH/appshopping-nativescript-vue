@@ -95,13 +95,17 @@ const Products = new Store({
     ],
     infouser:{},
     users:[
-      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',username:'admin',password:'admin',name:'Tran Gia Bao',phone:'0123456789',
-      chat:[{productID:'6064365720bd941a081ab8b3',comment:'Bình luận sản phẩm'}]
+      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',username:'admin',password:'admin',name:'Tran Gia Bao',phone:'0123456789'
     },
-      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',username:'jensen',password:'123456',name:'Tran Jensen',phone:'0123456710',
-      chat:[{productID:'6064365720bd941a081ab8b3',comment:'Bình luận sản phẩm'}]
+      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',username:'jensen',password:'123456',name:'Tran Jensen',phone:'0123456710'
     },
+    ],
+    chat:[{productID:'6064365720bd941a081ab8b3',comment:[
+      {id:'c2181edf-041b-0a61-3651-79d671fa3db7',name:'Tran Gia Bao',cmt:'Bình luận sản phẩm'},
+      {id:'c2181edf-041b-0a68-3658-79d671fa3db8',name:'Tran Jensen',cmt:'Bình luận sản phẩm2'},
     ]
+    }],
+    love:[]
 
   },
   mutations: {
@@ -112,16 +116,36 @@ const Products = new Store({
         );
       }
     },
+    addlove(state,data){
+      var err = true
+      for(var i= 0; i < state.love.length ; ++i){
+        if(state.love[i].name != data.name ){
+          err =false
+          break;
+        }
+      }
+      if (err == true){
+        state.love.push(data)
+      }
+
+    },
     addchat(state,data){
         var comment={}
-        comment.productID = data.productID
-        comment.comment = data.comment
-        for(var i = 0 ; i < state.users.length; ++i ){
-          if ( state.users[i].id  == data.id){
-            console.log('added comment')
-            state.users[i].chat.push(comment)
+        comment = data.comment
+        var err = 0
+        for(var i = 0 ; i < state.chat.length; ++i ){
+          if ( state.chat[i].productID  == data.productID){
+            state.chat[i].comment.push(comment)
+            err +=1
             break;
           }
+        }
+        if (err == 0){
+          var dataconvert = {}
+          dataconvert.productID =data.productID
+          dataconvert.comment =[]
+          dataconvert.comment.push(data.comment)
+          state.chat.push(dataconvert)
         }
     },
     getinfo(state,info){

@@ -7,30 +7,30 @@
           <GridLayout rows="*" columns="*">
         
         <ScrollView>
-        <StackLayout>
+        <StackLayout height="100%">
 
-      <FlexboxLayout backgroundColor="gray" flexDirection="column" justifyContent="center" class="full-height">
-           <Image src="~/assets/images/map.png" class="logo-container "/>
+      <FlexboxLayout flexDirection="column" justifyContent="center" class="full-height">
+           <Image src="~/assets/images/icon/c1d48130-b517-47a9-8b8a-6200c3ffe19e_200x200.png" class="logo-container "/>
         <StackLayout class="container">
             <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/id-card.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="nameInput" hint="Your name"  class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/user.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
           </FlexboxLayout>
 
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="passwordInput" hint="Password" secure="true" class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="repasswordInput" hint="Re-Password" secure="true" class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
-            <Image src="~/assets/images/iconshopingapp/love-it-circle.png" width="16" height="16" class="icon-margin" />
+            <Image src="~/assets/images/icon/mobile-phone-popular-model-nexus-5.png" width="20" height="20" class="icon-margin" />
             <TextField v-model="phoneInput" hint="Number phone" class="form-input" />
           </FlexboxLayout>
         
@@ -38,7 +38,7 @@
           <Button text="Sign up" @tap="onButtonTap" class="my-button" />
 
           <FlexboxLayout alignItems="center" justifyContent="space-between" class="auth-buttons">
-            <Label horizontalAlignment="left" @tap= "gotologin" text="Create Account" />
+            <Label horizontalAlignment="left" @tap= "gotologin" text="Back to login" />
             <Label horizontalAlignment="right" text="Forgot Password" />
           </FlexboxLayout>
         </StackLayout>
@@ -129,20 +129,20 @@ export default {
 <style lang="scss">
   .border-bottom {
     border-bottom-width: 1;
-    border-bottom-color: white;
+    border-bottom-color: rgb(0, 0, 0);
     margin-bottom: 40;
     padding-bottom: 8;
   }
   .form-input {
-    color: white;
-    placeholder-color: white;
+    color: rgb(0, 0, 0);
+    placeholder-color: rgb(0, 0, 0);
   }
   .icon-margin {
     margin-right: 10;
   }
   .my-button {
     background-color: #4BD5DC;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 25;
     padding-top: 14;
@@ -153,17 +153,22 @@ export default {
     margin-top: 10;
   }
   .auth-buttons {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 14;
+    // padding-bottom:50 ;
   }
   .full-height {
     height: 100%;
+    color:black
+    // background: #ffff;
   }
   .logo-container {
-    width: 150;
-  margin-top: 20;
+    width: 170;
+  margin-top: -30;
+
   }
   .container {
+    margin-top: -100;
     margin-left: 34;
     margin-right: 34;
   }

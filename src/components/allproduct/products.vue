@@ -1,96 +1,115 @@
 <template>
 
 <Page>
-  
+  <ActionBar :title="product.category"  backgroundColor="white">
+    <NavigationButton text="Back" android.systemIcon="ic_menu_back" @tap="$navigateBack" />
+    <Image col="1" src="~/assets/images/icon/logo.png" class="logo" stretch="aspectFill" />
+  </ActionBar>
 
-  <StackLayout>
-     <FlexboxLayout backgroundColor="white" alignItems="center"  justifyContent="space-between" >
-           <Image margin="10" @tap="$modal.close" horizontalAlignment="left" alignSelf="center" src="~/assets/images/iconshopingapp/login.png" stretch="none" />
-            <Label  alignSelf="center" horizontalAlignment="right" class="price-sale" padding="10" :text="product.category" textWrap="true" />
-    </FlexboxLayout>
-    <ScrollView>
-     <FlexboxLayout backgroundColor="white" flexDirection="column-reverse" justifyContent="space-between">
-            <StackLayout  alignSelf="center" width="auto" height="auto">
-                <!-- <GridLayout rows="250" columns="*">
-                  <Image :src="product.images[0]" alt="" />
-                </GridLayout> -->
-                    <GridLayout height="500" width="auto">
-                        <Carousel
-                            ref="myCarousel"
-                            debug="true"
-                        
-                            :items="product.images"
-                            colow="white"
-                            @pageChanged="myChangePageEvent"
-                            indicatorColor="#d1cbc5"
-                            indicatorColorUnselected="#f0ece9"
-                            ios:autoPagingInterval="3"
-                            android:indicatorAnimation="swap"
-                        >
-                            <CarouselItem
-                            v-for="(item, i) in product.images"
-                            :key="i"
-                            verticalAlignment="middle"
-                            @tap="myTapPageEvent"
-                            >
-                        
-                            <GridLayout>
-                                <Image :src="item"></Image>
-                                <!-- <Label :text="item.title" horizontalAlignment="center" backgroundColor="#50000000" height="30"></Label> -->
-                            </GridLayout>
-                            </CarouselItem> 
-                        </Carousel>
-                    </GridLayout>
-                    <StackLayout width ="300">
+     
+ 
+         <GridLayout rows="*" columns="*" backgroundColor="#d3d3d3">
+            <DockLayout  stretchLastChild="true" >
+            <Footer dock="bottom"></Footer>
+                
+                    <StackLayout height="auto">
+                    
+                <ScrollView>
+                        <StackLayout height='auto'>
+                          
+                    <FlexboxLayout backgroundColor="white" flexDirection="column-reverse" justifyContent="space-between">
+                            <StackLayout  alignSelf="center" width="auto" height="auto">
+                                <!-- <GridLayout rows="250" columns="*">
+                                <Image :src="product.images[0]" alt="" />
+                                </GridLayout> -->
+                                    <GridLayout marginTop="-37" height="500" width="auto">
+                                        <Carousel
+                                            ref="myCarousel"
+                                            debug="true"
+                                        
+                                            :items="product.images"
+                                            colow="white"
+                                            @pageChanged="myChangePageEvent"
+                                            indicatorColor="#d1cbc5"
+                                            indicatorColorUnselected="#f0ece9"
+                                            ios:autoPagingInterval="3"
+                                            android:indicatorAnimation="swap"
+                                        >
+                                            <CarouselItem
+                                            v-for="(item, i) in product.images"
+                                            :key="i"
+                                            verticalAlignment="middle"
+                                            @tap="myTapPageEvent"
+                                            >
+                                        
+                                            <GridLayout>
+                                                <Image :src="item"></Image>
+                                                <!-- <Label :text="item.title" horizontalAlignment="center" backgroundColor="#50000000" height="30"></Label> -->
+                                            </GridLayout>
+                                            </CarouselItem> 
+                                        </Carousel>
+                                    </GridLayout>
+                                    <StackLayout width ="300">
+                                                
+                                        <Label class="name" :text="product.name" textWrap="true" />
+                            
+                                        <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                                        <Label  horizontalAlignment="left" class="price-sale" text="Giá gốc: " width="auto" textWrap="true" />
+                                        <Label  horizontalAlignment="right" class="price" width="auto" :text="product.price.old" textWrap="true" />
+                                    </FlexboxLayout>
+                                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                                        <Label  horizontalAlignment="left" class="price-sale" text="Giá sale: " width="auto" textWrap="true" />
+                                        <Label horizontalAlignment="right" class="price-sale" :text="product.price.sale" textWrap="true" />
+                                    </FlexboxLayout>
+                                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
+                                        <Label horizontalAlignment="left" color="black" :text="'SKU: '+product.sku" textWrap="true" />
+                                        <Image horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="loveit(product)" stretch="none" />
+                                        
+                                    </FlexboxLayout>
+                                        <Button text="add" @tap="addCart(product)" />
+                                        <Label  class="description comment" :text="product.description | newline" textWrap="true" />
+                                        <GridLayout class="comment" rows="auto" columns="*,auto">
+                                        <TextField hint="Nhập bình luận..." col="0" v-model="binhluan" />
+                                        <Button text="Send" col="1" @tap="send" />
+                                        </GridLayout>
+                                <StackLayout>
+                                <Label text="Comment:" textWrap="true" />
+                                    <RadListView ref="listView"
+                                        for="item in comment"
+                                        @itemTap="onItemTap">
+                                        <v-template>
+                                        <StackLayout alignSelf="left" class="cmt" >
+                                            <Label  :text="item.name+': '+item.cmt" textWrap="true"  color="black"></Label>
+                                        </StackLayout>
+                                        </v-template>
+                                    </RadListView>
                                 
-                        <Label class="name" :text="product.name" textWrap="true" />
-            
-                        <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
-                        <Label  horizontalAlignment="left" class="price-sale" text="Giá gốc: " width="auto" textWrap="true" />
-                        <Label  horizontalAlignment="right" class="price" width="auto" :text="product.price.old" textWrap="true" />
-                    </FlexboxLayout>
-                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
-                        <Label  horizontalAlignment="left" class="price-sale" text="Giá sale: " width="auto" textWrap="true" />
-                        <Label horizontalAlignment="right" class="price-sale" :text="product.price.sale" textWrap="true" />
-                    </FlexboxLayout>
-                    <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
-                        <Label horizontalAlignment="left" color="black" :text="'SKU: '+product.sku" textWrap="true" />
-                        <Image horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="loveit(product)" stretch="none" />
-                        
-                     </FlexboxLayout>
-                        <Button text="add" @tap="addCart(product)" />
-                        <Label class="description" :text="product.description | newline" textWrap="true" />
-                        <GridLayout rows="50" columns="*,auto">
-                        <TextField hint="Nhập bình luận..." col="0" v-model="binhluan" />
-                        <Button text="Send" col="1" @tap="send" />
-                        </GridLayout>
-                    </StackLayout>
-                <StackLayout>
-                  <Label text="Comment:" textWrap="true" />
-                     <RadListView ref="listView"
-                        for="item in comment"
-                        @itemTap="onItemTap">
-                        <v-template>
-                        <StackLayout alignSelf="left" class="item" orientation="vertical">
-                            <Label paddingLeft="10" :text="item.comment" textWrap="true"  color="black"></Label>
-                        </StackLayout>
-                        </v-template>
-                    </RadListView>
-                 
-                </StackLayout>
-            </StackLayout>
+                                </StackLayout>
+                                    </StackLayout>
+                            </StackLayout>
 
-    </FlexboxLayout>
-    </ScrollView>
-  </StackLayout>
+                    </FlexboxLayout>
+                        </StackLayout>
+
+                </ScrollView>
+                    </StackLayout> 
+
+                
+            </DockLayout>
+         </GridLayout>
+   
+   
 </Page>
 
 </template>
 
 <script>
-
+// import Footer from "../include/footer.vue";
+import * as utils from "tns-core-modules/utils/utils";
 export default ({
-
+ components: {
+   Footer: () => import('../include/footer.vue'),
+  },
    props:{
        product:{
            type:Object,
@@ -99,7 +118,7 @@ export default ({
    },
    data(){
        return{
-           cmm : this.$store.state.users,
+           cmm : this.$store.state.chat,
            user : this.$store.state.infouser,
            binhluan: ''
        }
@@ -109,11 +128,10 @@ export default ({
         
                var comment =[]
                this.cmm.forEach(element => {
-                   element.chat.forEach(ele => {
-                          if(ele.productID == this.product._id.$oid){
-                              comment.push(ele)
-                          }
-                   });
+                   if (element.productID == this.product._id.$oid){
+                        comment = element.comment
+                   }
+                  
                });
                return comment
 
@@ -123,11 +141,15 @@ export default ({
        send(){
           var data ={}
           data.productID = this.product._id.$oid
-          data.comment = this.user.name +': '+ this.binhluan
-          data.id = this.user.id
+          data.comment = {}
+          data.comment.id = this.user.id
+          data.comment.name = this.user.name
+          data.comment.cmt = this.binhluan
             if (this.binhluan != ''){
                 this.$store.commit('addchat',data)
                 this.binhluan = ''
+                utils.ad.dismissSoftInput();
+
             }
        },
        addCart(product){
@@ -157,7 +179,7 @@ export default ({
     var value1= value.replace(re,'.\n + \t')
     let endstring = value1.length
     let value2 =  value1.replace(re1,'')
-    return value2.slice(0,endstring-13)
+    return value2.slice(0,endstring-12)
     // return value.split('.').join('\n +');
   }
 },
@@ -165,10 +187,18 @@ export default ({
 </script>
 
 <style scoped>
+.comment{
+    border: 1 solid black;
+    background: #f8f8f8;
+    border-radius:25 ;
+    
+}
 .description{
     font-size: 15;
     text-align: left;
     color: black;
+    padding: 20;
+    margin-bottom:20 ;
 }
 .products{
     display: block;
@@ -207,5 +237,16 @@ font-size: 18;
     text-transform:uppercase;
     color: black;
 
+}
+.logo{
+  height: 50;
+  width: 100;
+  
+}
+.cmt{
+    padding: 10;
+    background: #f6f6f6;
+    border-radius: 15;
+    margin-bottom: 5;
 }
 </style>

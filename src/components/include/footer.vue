@@ -11,6 +11,7 @@
       src="~/assets/images/iconshopingapp/shop-sale-1.png"
       stretch="none"
       col="0"
+      @tap="gotohot"
     />
  
 
@@ -43,6 +44,7 @@
   </GridLayout>
 </template>
 <script >
+import Hot from "../hotproduct.vue"
 import Cart from "../cart.vue";
 import App from "../App.vue";
 import Favourite from "../favourite.vue"
@@ -51,6 +53,15 @@ export default {
     return {};
   },
   methods: {
+    gotohot() {
+      this.$navigateTo(Hot, {
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      });
+    },
     gotocart() {
       this.$navigateTo(Cart, {
         transition: {

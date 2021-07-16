@@ -72,8 +72,7 @@
                         ref="listView"
                         for="item in shirt"
                         @itemTap="onItemTap"
-                        @loaded="onLoaded"
-                        @scrolled="onScrolled"
+                       
                         orientation="horizontal"
                       >
                         <v-template>
@@ -91,8 +90,7 @@
                         ref="listView"
                         for="item in dress"
                         @itemTap="onItemTap"
-                        @loaded="onLoaded"
-                        @scrolled="onScrolled"
+                       
                         orientation="horizontal"
                       >
                         <v-template>
@@ -110,8 +108,7 @@
                         ref="listView"
                         for="item in dress1"
                         @itemTap="onItemTap"
-                        @loaded="onLoaded"
-                        @scrolled="onScrolled"
+                       
                         orientation="horizontal"
                       >
                         <v-template>
@@ -129,8 +126,7 @@
                         ref="listView"
                         for="item in pant"
                         @itemTap="onItemTap"
-                        @loaded="onLoaded"
-                        @scrolled="onScrolled"
+                       
                         orientation="horizontal"
                       >
                         <v-template>
@@ -341,7 +337,6 @@ computed: {
       this.$navigateTo(user)
     },
  onItemTap({ item }) {
-      console.log(`Tapped on ${item.name}`);
       this.$navigateTo(Product, {  props: { product: item }});
     },
     itemTap(item){

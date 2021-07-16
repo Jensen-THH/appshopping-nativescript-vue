@@ -1,6 +1,7 @@
 import Vue from 'nativescript-vue'
 import App from './components/App'
-import Signin from './components/signin'
+import checkout from './components/checkout.vue'
+import cart from './components/cart.vue'
 
 import Products from './store/index'
 import Vuex from 'vuex'

@@ -129,6 +129,7 @@
 import checkout from './checkout.vue'
 import cart from './cart.vue'
 import app from './App.vue'
+import login from './signin.vue'
 import product  from './allproduct/products.vue'
 export default {
  name: 'ParentComponent',
@@ -137,7 +138,9 @@ export default {
   },
   data() {
     return {
-      cart2:[]
+      cart2:[],
+      count:0,
+      tongtien:''
     };
   },
   
@@ -151,6 +154,7 @@ export default {
       for (var i = 0; i < this.cart2.length; i++) {
         tongsl += this.cart2[i].quantity;
       }
+      this.count = tongsl
       return tongsl;
     },
     total() {
@@ -164,18 +168,27 @@ export default {
         console.log(t);
       }
         t = (t + "đ").replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+        this.tongtien = t
       return t;
     },
   },
   methods:{
     gotocheckout(){
-     this.$navigateTo(checkout, {
-        transition: {
-          name: "slideLeft",
-          duration: 300,
-          curve: "easeIn",
-        },
-      });
+      var all = {}
+      all.count = this.count
+      all.total = this.tongtien
+      console.log(all)
+      
+    
+        this.$navigateTo(checkout, {
+            props:{all:all},
+           transition: {
+             name: "slideLeft",
+             duration: 300,
+             curve: "easeIn",
+           },
+         });
+      
     },
      gotoproduct(item){
        console.log(item.price)
@@ -270,7 +283,6 @@ ActionBar {
   color: #ffffff;
 }
 .item{
-  background: #ffffff;
    android-elevation:5;
    padding-bottom: 5;
 }

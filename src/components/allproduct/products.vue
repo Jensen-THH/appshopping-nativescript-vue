@@ -107,6 +107,7 @@
 <script>
 // import Footer from "../include/footer.vue";
 import * as utils from "tns-core-modules/utils/utils";
+import login from '../signin'
 export default ({
  components: {
    Footer: () => import('../include/footer.vue'),
@@ -170,21 +171,58 @@ export default ({
             }
        },
        addCart(product){
+if (this.$store.state.infouser.name == undefined){
+        alert({
+          title:'JSShop',
+          message:'Vui lòng đăng nhập tài khoản để mua hàng!',
+          okButtonText: "Ok"
+        })
+        this.$navigateTo(login,
+           {
+             clearHistory:true,
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      }
+        )
+      }
+           else{
            this.$store.commit("add", product);
            alert({
                     title: "JSshop",
                     message: 'Đã thêm thành công!',
                     okButtonText: "Ok"
                   })
+           }
        },
        loveit(product){
+
+           if (this.$store.state.infouser.name == undefined){
+        alert({
+          title:'JSShop',
+          message:'Vui lòng đăng nhập tài khoản để mua hàng!',
+          okButtonText: "Ok"
+        })
+        this.$navigateTo(login,
+           {
+             clearHistory:true,
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      }
+        )
+      }else{
            this.$store.commit('addlove',product)
              alert({
                title:'JSshop',
                message:'Đã thêm vào danh sách yêu thích của bạn!',
                okButtonText: "Ok"
            })
-         
+         }
        },
        rmloveit(product){
            this.$store.commit('rmlove',product)

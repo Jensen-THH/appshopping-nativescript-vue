@@ -30,6 +30,7 @@
       src="~/assets/images/iconshopingapp/love-it-bubble.png"
       stretch="none"
       col="2"
+      @tap= "gotofavourite"
     />
 
     <Image
@@ -43,7 +44,8 @@
 </template>
 <script >
 import Cart from "../cart.vue";
-import App from "../App.vue"
+import App from "../App.vue";
+import Favourite from "../favourite.vue"
 export default {
   data() {
     return {};
@@ -60,6 +62,15 @@ export default {
     },
     gotoapp() {
       this.$navigateTo(App, {
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      });
+    },
+    gotofavourite(){
+      this.$navigateTo(Favourite, {
         transition: {
           name: "slideLeft",
           duration: 300,

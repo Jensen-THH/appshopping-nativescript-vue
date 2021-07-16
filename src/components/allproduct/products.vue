@@ -63,7 +63,8 @@
                                     </FlexboxLayout>
                                     <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
                                         <Label horizontalAlignment="left" color="black" :text="'SKU: '+product.sku" textWrap="true" />
-                                        <Image horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="loveit(product)" stretch="none" />
+                                        <Image v-if="setlove" horizontalAlignment="right"  class="loveit" src="~/assets/images/iconshopingapp/love-it-circle.png" @tap="rmloveit(product)" stretch="none" />
+                                        <Image v-else horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png"  @tap="loveit(product)" stretch="none" />
                                         
                                     </FlexboxLayout>
                                         <Button text="add" @tap="addCart(product)" />
@@ -120,10 +121,25 @@ export default ({
        return{
            cmm : this.$store.state.chat,
            user : this.$store.state.infouser,
-           binhluan: ''
+           binhluan: '',
+           love : this.$store.state.love,
+          
        }
    },
    computed:{
+       setlove: function(){
+           var get = false
+           for(var i=0;i<this.love.length ;++i){
+               if(this.love[i].name == this.product.name){
+                   get = true;
+                   break;
+               }
+               else{
+                   get = false
+               }
+           }
+           return get
+       },
        comment:function () { 
         
                var comment =[]
@@ -138,6 +154,7 @@ export default ({
         }
    },
    methods:{
+
        send(){
           var data ={}
           data.productID = this.product._id.$oid
@@ -161,7 +178,21 @@ export default ({
                   })
        },
        loveit(product){
-           alert('Đã thêm vào danh sách yêu thích của bạn!')
+           this.$store.commit('addlove',product)
+             alert({
+               title:'JSshop',
+               message:'Đã thêm vào danh sách yêu thích của bạn!',
+               okButtonText: "Ok"
+           })
+         
+       },
+       rmloveit(product){
+           this.$store.commit('rmlove',product)
+           alert({
+               title:'JSshop',
+               message:'Đã xoá khỏi danh sách yêu thích',
+               okButtonText: "Ok"
+           })
        }
    },
      watch: {
@@ -248,5 +279,9 @@ font-size: 18;
     background: #f6f6f6;
     border-radius: 15;
     margin-bottom: 5;
+}
+.loveit{
+    background: rgb(255, 32, 32);
+    border-radius: 25;
 }
 </style>

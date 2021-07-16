@@ -4,6 +4,8 @@ import Signin from './components/signin'
 
 import Products from './store/index'
 import Vuex from 'vuex'
+import RadDataForm from 'nativescript-ui-dataform/vue';
+Vue.use(RadDataForm);
 
 
 

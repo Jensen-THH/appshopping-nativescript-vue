@@ -3,8 +3,13 @@
    <ActionBar title="Cart"  backgroundColor="white">
      <NavigationButton text="Back" android.systemIcon="ic_menu_back" @tap="gotoapp" />
      <!-- <ActionItem icon="" text="Left" ios.position="left" @tap="" /> -->
-     <Image  src="~/assets/images/icon/logo.png" class="logo" stretch="aspectFill" />
-     <ActionItem icon="" text="Checkout" ios.position="right" />
+    <GridLayout rows="auto" columns="180,120">
+      
+     <Image  src="~/assets/images/icon/logo.png" col="0" class="logo" stretch="aspectFill" />
+     <!-- <ActionItem   text="Checkout" @tap="gotocheckout" ios.position="right" /> -->
+    <Label col="1"  v-if="this.$store.state.cart.length != 0" text="CHECKOUT" @tap="gotocheckout" textWrap="true" />
+    </GridLayout>
+    
    </ActionBar>
      
    
@@ -52,12 +57,12 @@
       >
       
         <v-template>
-          <GridLayout  backgroundColor="white" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
+          <GridLayout class="item" marginBottom="10" backgroundColor="#f2f2f2" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
               <Image @tap="gotoproduct(item)" :src="item.images[0]"  width="180" col="0"  horizontalAlignment="left" verticalAlignment="bottom"
                   margin="3" />
-              <StackLayout col="1">
-                 <Label @tap="gotoproduct(item)" :text="item.name" fontSize="17" width="150" textWrap="true" margin="10" />
-                  <GridLayout   rows="*" columns="50,50,50" margin="5">
+              <StackLayout col="1" width="auto">
+                 <Label @tap="gotoproduct(item)" :text="item.name" fontSize="15" width="150" textWrap="true" marginRight="20" />
+                  <GridLayout   rows="*" columns="40,50,40" margin="5">
                     <Button text="-" col="0" @tap="tru(item)" width="50" />
                     <Label :text="item.quantity" col="1" horizontalAlignment="left" verticalAlignment="bottom" margin="10" />
                     <Button text="+"  width="50"  col="2" @tap="cong(item)" />
@@ -121,6 +126,7 @@
 <script>
 // var frameModule = require("ui/frame");
 // import Footer from './include/footer.vue'
+import checkout from './checkout.vue'
 import cart from './cart.vue'
 import app from './App.vue'
 import product  from './allproduct/products.vue'
@@ -162,7 +168,15 @@ export default {
     },
   },
   methods:{
-    
+    gotocheckout(){
+     this.$navigateTo(checkout, {
+        transition: {
+          name: "slideLeft",
+          duration: 300,
+          curve: "easeIn",
+        },
+      });
+    },
      gotoproduct(item){
        console.log(item.price)
       this.$navigateTo(product, {props :{product:item},
@@ -250,15 +264,21 @@ export default {
 };
 </script>
       
-<style>
+<style scoped>
 ActionBar {
   background-color: #53ba82;
   color: #ffffff;
 }
-
+.item{
+  background: #ffffff;
+   android-elevation:5;
+   padding-bottom: 5;
+}
 .right {
   width: 80;
+  height: 95%;
   padding: 5 10 5 10;
+  margin-bottom: 10;
   background-color: rgb(248, 129, 129);
   text-align: center;
   justify-content: space-between;
@@ -268,6 +288,9 @@ ActionBar {
 }
 .left {
   width: 80;
+  height: 95%;
+  margin-bottom: 10;
+
   padding: 5 10 5 10;
   background-color: pink;
 }

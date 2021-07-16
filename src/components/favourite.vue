@@ -38,11 +38,11 @@
       >
       
         <v-template>
-          <GridLayout  backgroundColor="white" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
+          <GridLayout class="item" marginBottom="10" backgroundColor="#f2f2f2" color="black" columns="auto,auto" rows="auto" verticalAlignment="top">
               <Image @tap="gotoproduct(item)" :src="item.images[0]"  width="180" col="0"  horizontalAlignment="left" verticalAlignment="bottom"
                   margin="3" />
               <StackLayout col="1">
-                 <Label @tap="gotoproduct(item)" :text="item.name" fontSize="15" width="150" textWrap="true" margin="10" />
+                 <Label @tap="gotoproduct(item)" :text="item.name" fontSize="15" width="150" textWrap="true" marginRight="15" />
                  
                   <FlexboxLayout col="1" alignItems="center" justifyContent="space-between"  orientation="vertical" itemWidth="150" itemHeight="auto">
                   <Label fontSize="10" text="Giá sale:"  horizontalAlignment="left"  margin="10" />
@@ -210,10 +210,15 @@ ActionBar {
   background-color: #53ba82;
   color: #ffffff;
 }
-
+.item{
+     android-elevation:5;
+   padding-bottom: 5;
+}
 .right {
   width: 80;
+  height: 95%;
   padding: 5 10 5 10;
+  margin-bottom: 10;
   background-color: rgb(248, 129, 129);
   text-align: center;
   justify-content: space-between;

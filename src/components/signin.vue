@@ -9,15 +9,15 @@
         <StackLayout class="container">
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/user.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
+            <TextField color="black" v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
           </FlexboxLayout>
 
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="passwordInput" hint="Password" secure="true" class="form-input" />
+            <TextField color="black" v-model="passwordInput" hint="Password" secure="true" class="form-input" />
           </FlexboxLayout>
 
-          <Button text="Login" @tap="onButtonTap" class="my-button" />
+          <Button backgroundColor="#4b4b4b" color="white" text="Login" @tap="onButtonTap" class="my-button" />
 
           <FlexboxLayout alignItems="center" justifyContent="space-between" class="auth-buttons">
             <Label horizontalAlignment="left" @tap="create" text="Create Account" />
@@ -101,8 +101,7 @@ export default {
     margin-right: 10;
   }
   .my-button {
-    background-color: #4BD5DC;
-    color: black;
+    
     font-weight: bold;
     border-radius: 25;
     padding-top: 14;

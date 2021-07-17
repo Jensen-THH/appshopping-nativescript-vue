@@ -1,101 +1,1306 @@
-[
-  {
-    "_id": {
-      "$oid": "6064378a20bd941a081ab90a"
-    },
-    "images": [
-      "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg",
-      "",
-      "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg"
-    ],
-    "name": "Quần kaki jean rách gối",
-    "sku": " BA1912003H",
-    "price": {
-      "sale": "299,000₫",
-      "old": "659,000₫"
-    },
-    "description": "Miêu tả: Quần kaki jean rách gối. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
-    "category": "Quần",
-    "__v": 0
+[{
+  "_id": {
+    "$oid": "6064371a20bd941a081ab8e4"
   },
-  {
-    "_id": {
-      "$oid": "6064378e20bd941a081ab90b"
-    },
-    "images": [
-      "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg",
-      "",
-      "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg"
-    ],
-    "name": "Quần kaki jean basic xẻ lai",
-    "sku": " BA1912001H",
-    "price": {
-      "sale": "299,000₫",
-      "old": "659,000₫"
-    },
-    "description": "Miêu tả: Quần kaki jean basic xẻ lai. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
-    "category": "Quần",
-    "__v": 0
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_dd2e9ff06f8844c2a4ad0ace34df7f4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_601998b2133b42f988a76161d80a5f1e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_42aff94501024f80a7b97bc070cfdffd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_9515409b27ad4416a2ad14757c58e76a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_13e4b0c44714425186ba60261d3ff47c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_68faaaab1d6740aabe9a3ddd11e1ac7c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-2_06703a11aa2947789f748eb83d62ea9b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_ea29ce1d09d94053b19f2a88749af81e_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_dd2e9ff06f8844c2a4ad0ace34df7f4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_601998b2133b42f988a76161d80a5f1e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_42aff94501024f80a7b97bc070cfdffd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_9515409b27ad4416a2ad14757c58e76a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_13e4b0c44714425186ba60261d3ff47c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_68faaaab1d6740aabe9a3ddd11e1ac7c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-2_06703a11aa2947789f748eb83d62ea9b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_ea29ce1d09d94053b19f2a88749af81e_master.jpg"
+  ],
+  "name": "Quần jean dài không lai",
+  "sku": " CMS1201205",
+  "price": {
+    "sale": "329,000₫",
+    "old": "659,000₫"
   },
-  {
-    "_id": {
-      "$oid": "6064379020bd941a081ab90c"
-    },
-    "images": [
-      "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg",
-      "",
-      "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
-      "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
-      "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg"
-    ],
-    "name": "QUẦN PATH lai lệch",
-    "sku": " BA1911002H",
-    "price": {
-      "sale": "299,000₫",
-      "old": "699,000₫"
-    },
-    "description": "Miêu tả: QUẦN PATH lai lệch. wash Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
-    "category": "Quần",
-    "__v": 0
-  }
-]
+  "description": "Miêu tả: Quần jean dài không lai Size: 27/28/29/30. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục dạo phố, đi làm. Màu sắc: Xanh đậm - Xanh nhạt. Chất liệu: Kaki Jean. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064371d20bd941a081ab8e5"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-3_1513cd44d4af46cbbf6215568fb87f6f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a7086cbfa27a4637ada6784c73560374_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_f428c18cff8c43fe8b8298888fda2e82_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_c522073a032e4429a8cbb48fc5ec1e38_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-3_1513cd44d4af46cbbf6215568fb87f6f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a7086cbfa27a4637ada6784c73560374_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_f428c18cff8c43fe8b8298888fda2e82_master.jpg"
+  ],
+  "name": "Quần short bicycle",
+  "sku": " TDC1201203",
+  "price": {
+    "sale": "269,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần short bicycle. Size: S/M/L. Đặc tính: Trẻ trung-năng động – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen. Chất liệu: 35% Polyester 65% Cotton. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064371f20bd941a081ab8e6"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/cam-1_a9cc64d7b1cb4500aa4b6eb3425864ee_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-4_3a5cdaa846794d86bb3a5d19a585ec98_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-2_4e6a6fb826cf4c85a1218790008f743a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-3_ef46eab012d146ba947480c828cb80d7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-1_f1105ebee249482fa6bdce1e8041936c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-4_d0f25191c73247faa48759bd9a160d5b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-2_b3d7ec43711445beba78c821e2d153fc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-3_9ecbe0af816342a2bfdf2b066007d73d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1765300af3ae4d7086851e184b02e0f3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_d1d2150f59e64005a70857ebde8367fa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_3403959296f94fed99b0257a996c379e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_7d3c96be20f2497998991058123c903c_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/cam-1_a9cc64d7b1cb4500aa4b6eb3425864ee_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-4_3a5cdaa846794d86bb3a5d19a585ec98_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-2_4e6a6fb826cf4c85a1218790008f743a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/cam-3_ef46eab012d146ba947480c828cb80d7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-1_f1105ebee249482fa6bdce1e8041936c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-4_d0f25191c73247faa48759bd9a160d5b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-2_b3d7ec43711445beba78c821e2d153fc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-reu-3_9ecbe0af816342a2bfdf2b066007d73d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1765300af3ae4d7086851e184b02e0f3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_d1d2150f59e64005a70857ebde8367fa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_3403959296f94fed99b0257a996c379e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_7d3c96be20f2497998991058123c903c_master.jpg"
+  ],
+  "name": "Quần dài ống flare",
+  "sku": " TDO1201201",
+  "price": {
+    "sale": "299,000₫",
+    "old": "499,000₫"
+  },
+  "description": "Miêu tả: Quần dài ống flare. Size: S/M/L. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục đi làm và dạo phố. Màu sắc: Cam/ Xanh rêu/ Đen. Chất liệu: Bố nhung gân. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064372220bd941a081ab8e7"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_955afc344af2480a948d823a62763b85_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_c64fdf7958224a23aa26509820b85d79_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_96c596b9c89c48728b1427b7f5a15413_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_b8508188db5249f884def0b61b4008f4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_f2e266ff6b9543fa84c211905c91efaa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_c2d80dde1a5842d7a6452b1d2aee608f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_80a967bc0b0d4a6d865c1a6c7fe226c9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_aafc2289ddaf46eeb201efdba7f97877_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_955afc344af2480a948d823a62763b85_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_c64fdf7958224a23aa26509820b85d79_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_96c596b9c89c48728b1427b7f5a15413_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_b8508188db5249f884def0b61b4008f4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_f2e266ff6b9543fa84c211905c91efaa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_c2d80dde1a5842d7a6452b1d2aee608f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_80a967bc0b0d4a6d865c1a6c7fe226c9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_aafc2289ddaf46eeb201efdba7f97877_master.jpg"
+  ],
+  "name": "Quần short lai lật",
+  "sku": " CMS12012010N",
+  "price": {
+    "sale": "251,000₫",
+    "old": "359,000₫"
+  },
+  "description": "Miêu tả: Quần short lai lật. Size: S/M/L/XL. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục đi làm và dạo phố. Màu sắc: Đen - Nâu. Chất liệu: Khaki chéo. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064372520bd941a081ab8e8"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_7fba54602780441d81a6e17c29812a01_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_eb726d35410241c68f82665d68ba42e0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_e9d24a6deb1f4028a82f30331c04b19a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_bedad5b2b99a4957b724253bb0253263_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_06bcb6cd8087447585698d02af11e8ef_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_26aa4e51615349c7acaac4a6f51bc757_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_0cd84017789041098574027eaae992c2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-4_3fe65197db6f4303ad08a4f3fc288624_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_7fba54602780441d81a6e17c29812a01_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_eb726d35410241c68f82665d68ba42e0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_e9d24a6deb1f4028a82f30331c04b19a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_bedad5b2b99a4957b724253bb0253263_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_06bcb6cd8087447585698d02af11e8ef_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_26aa4e51615349c7acaac4a6f51bc757_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_0cd84017789041098574027eaae992c2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-4_3fe65197db6f4303ad08a4f3fc288624_master.jpg"
+  ],
+  "name": "Quần Jogger lưng thun",
+  "sku": " CMS12012004N",
+  "price": {
+    "sale": "239,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần Jogger lưng thun. Size: S/M. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục dạo phố - trang phục đi làm. Màu sắc: Vàng - Đen. Chất liệu: Lụa sớ xéo. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064372720bd941a081ab8e9"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/reu-1_e3891b0425df43dabfe0278349a9e22f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-4_6565f850781743019ff72b66f47bfe1f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-2_fd3a9400bbb3491eacbbdcbf3055d522_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-3_28293222873a4c41aaca040ecf40b507_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_e0ef6fca41624ac88446bd6141ab7adf_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_724cecb97c6e41938041184228d15fe2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_014546818ba34524a83b13b5620fea89_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_720864fc22e04498b0fa4f405be606a7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_90aed64175fa4a9591df34fedd1c7b4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_15ebdfbbd0414bf48e810147d7eea56f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_c0602842324040cc975c5b7b44559bfc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-3_e4527f3d126940bdb164b070a87f3b2b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_8cab4dc9028f43cdbe75a24cb74f5b9c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_c915c8cc69f149a199b6bcd0e2859f3a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_1b700f7b773748918ee6631a97b8675a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_95ab6e7af1a4443fb5938ca054e35f5a_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/reu-1_e3891b0425df43dabfe0278349a9e22f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-4_6565f850781743019ff72b66f47bfe1f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-2_fd3a9400bbb3491eacbbdcbf3055d522_master.jpg",
+    "https://product.hstatic.net/200000000131/product/reu-3_28293222873a4c41aaca040ecf40b507_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_e0ef6fca41624ac88446bd6141ab7adf_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_724cecb97c6e41938041184228d15fe2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_014546818ba34524a83b13b5620fea89_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_720864fc22e04498b0fa4f405be606a7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_90aed64175fa4a9591df34fedd1c7b4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_15ebdfbbd0414bf48e810147d7eea56f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_c0602842324040cc975c5b7b44559bfc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-3_e4527f3d126940bdb164b070a87f3b2b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_8cab4dc9028f43cdbe75a24cb74f5b9c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_c915c8cc69f149a199b6bcd0e2859f3a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_1b700f7b773748918ee6631a97b8675a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_95ab6e7af1a4443fb5938ca054e35f5a_master.jpg"
+  ],
+  "name": "Quần dài ống rộng",
+  "sku": " CMC12011022H",
+  "price": {
+    "sale": "349,000₫",
+    "old": "699,000₫"
+  },
+  "description": "Miêu tả: Quần dài ống rộng. Size: S/M/L. Đặc tính: Trẻ trung - năng động - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Kem – Đen – Xanh – Xanh rêu. Chất liệu: 35% polyester 65% Cotton. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064372a20bd941a081ab8ea"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/nau-1_26cbfaacff124434b3e2bb8d1dfab315_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_247a2baf2a5e41e38148fb621880a487_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_3e4fee1860014614aebe027d221cf4fc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_f6e2e815a82c44c4904302628e0d7291_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_0cef97896a714fd1aa9c22cb2255e970_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_798aec0b534440e9b4e4b896a655711b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_f8f9a9b02909425f9dedb2bf7c161e54_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-3_d6f9c04245264176ba11514486ddadea_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_d58796730695473cb2a03ce04aec00a6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_d99f405c84d640eb9a271783b4991f99_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_e035a8f6318e4b7f9199d730318c19fb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_aca7224ad16b4741a77b3b955f6638e2_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/nau-1_26cbfaacff124434b3e2bb8d1dfab315_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_247a2baf2a5e41e38148fb621880a487_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_3e4fee1860014614aebe027d221cf4fc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_f6e2e815a82c44c4904302628e0d7291_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_0cef97896a714fd1aa9c22cb2255e970_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_798aec0b534440e9b4e4b896a655711b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_f8f9a9b02909425f9dedb2bf7c161e54_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-3_d6f9c04245264176ba11514486ddadea_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_d58796730695473cb2a03ce04aec00a6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_d99f405c84d640eb9a271783b4991f99_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_e035a8f6318e4b7f9199d730318c19fb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_aca7224ad16b4741a77b3b955f6638e2_master.jpg"
+  ],
+  "name": "Quần short nhung",
+  "sku": " CMA12011021H",
+  "price": {
+    "sale": "269,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần short nhung. Size: S/M/L. Đặc tính: Trẻ trung-năng động – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Kem – Nâu - Đen. Chất liệu: 35% polyester 65% Cotton. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064372d20bd941a081ab8eb"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/be-1_9ffff50771e1481484ce237a0ac4c833_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-4_0e645339871c483ba55c7917ced31dae_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-2_11c3f70c6d0d4091a9fb4a2ee96b3544_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-3_f9b8cd4ec08b4b3f9ca5c2b76bb4befb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_67b6cf94183644c387f8afafff9f08ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_8d859da166d94f0dbf201b0fb3a6eab3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_945ec3fde80c4cd3bc6b3ba0481be728_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_d0752c1c9f6f4785aff41b0e9d95cd94_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/be-1_9ffff50771e1481484ce237a0ac4c833_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-4_0e645339871c483ba55c7917ced31dae_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-2_11c3f70c6d0d4091a9fb4a2ee96b3544_master.jpg",
+    "https://product.hstatic.net/200000000131/product/be-3_f9b8cd4ec08b4b3f9ca5c2b76bb4befb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_67b6cf94183644c387f8afafff9f08ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_8d859da166d94f0dbf201b0fb3a6eab3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_945ec3fde80c4cd3bc6b3ba0481be728_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_d0752c1c9f6f4785aff41b0e9d95cd94_master.jpg"
+  ],
+  "name": "Quần tây ống suông",
+  "sku": " TDC12011008N",
+  "price": {
+    "sale": "349,000₫",
+    "old": "499,000₫"
+  },
+  "description": "Miêu tả: Quần tây ống suông. Size: S/M/L/XL. Đặc tính: Thanh lịch - Hiện đại. Thể loại: trang phục đi làm. Màu sắc: Be - Đen. Thành phần: 65% Cotton, 35% Polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373020bd941a081ab8ec"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_97e20493c58b4dcbb2fbe78347dfb6cd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_8b1d1dba11cf44b79255511d8f305d5b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_e5109c87e27f4e32953420f2a675f7be_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_9355d808ba56470dada5161852328873_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_97e20493c58b4dcbb2fbe78347dfb6cd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_8b1d1dba11cf44b79255511d8f305d5b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_e5109c87e27f4e32953420f2a675f7be_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_9355d808ba56470dada5161852328873_master.jpg"
+  ],
+  "name": "Quần denim kaki lưng xéo",
+  "sku": " CMS12010041H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "699,000₫"
+  },
+  "description": "Miêu tả: Quần denim kaki lưng xéo. Size: 27,28,29,30. Đặc tính: Trẻ trung - Hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm. Chất liệu: Denim. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373220bd941a081ab8ed"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_14d2659727364501abc0275b1cbde18a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_3fff7e198d2e4a5b9887db6e7b41a6a5_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_4fafbd418358455bb853244d3bee4518_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_4f529fc2f5b14490b5562a22316bc2b7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_ed99abe87b70479c86d7c52c4bf311ae_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-5_42eb785f41b04573ac7ee069d22d2926_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_ba5af6518e24450db888eb76a788e8a9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_9ffbc375c32e4559ab24d0a400eee8b4_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_14d2659727364501abc0275b1cbde18a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_3fff7e198d2e4a5b9887db6e7b41a6a5_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_4fafbd418358455bb853244d3bee4518_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_4f529fc2f5b14490b5562a22316bc2b7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_ed99abe87b70479c86d7c52c4bf311ae_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-5_42eb785f41b04573ac7ee069d22d2926_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_ba5af6518e24450db888eb76a788e8a9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_9ffbc375c32e4559ab24d0a400eee8b4_master.jpg"
+  ],
+  "name": "Quần short kaki denim phối nút vòng lưng",
+  "sku": " CMA12011002H",
+  "price": {
+    "sale": "269,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần short kaki denim phối nút vòng lưng. Size: 27/28/29. Đặc tính: trẻ trung - năng động - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm, xanh nhạt. Chất liệu: Thun 100% polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373420bd941a081ab8ee"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_27d090a6b32b411ebeabab7feadf99d9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_ca234182bb7b43808e1ff0b511250a3c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_7062fb9341e34b818fd99486b7728ed0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_1932cea60fbe4b0696870dccd757d3b0_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_27d090a6b32b411ebeabab7feadf99d9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_ca234182bb7b43808e1ff0b511250a3c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_7062fb9341e34b818fd99486b7728ed0_master.jpg"
+  ],
+  "name": "Quần dài lưng phối nơ",
+  "sku": " CMO12010050N",
+  "price": {
+    "sale": "324,000₫",
+    "old": "649,000₫"
+  },
+  "description": "Miêu tả: Quần dài lưng phối nơ. Size: S/M/L/XL. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục dự tiệc. Màu sắc: Đen. Chất liệu: Bố thun sớ loang phối lưng lụa. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373620bd941a081ab8ef"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/trang-1_6dbf05f0dfc946daa4c697cdea18b42b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-6_757f8c862f9c4bb1a0c7d4741d5d6f4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-33_137f86e7ec604877b24526c9310213b8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-5_7ab1e464f46243e49b49365180025752_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_6a3290f6fe3c4061a464b974e5bd8124_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_c5091960b3f340aa80a6034d02027dfa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5a9a33e30c0b4943827be4b1c25112e9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_83992cb6f4974716ae1c927f4da5fae9_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/trang-1_6dbf05f0dfc946daa4c697cdea18b42b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-6_757f8c862f9c4bb1a0c7d4741d5d6f4c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-33_137f86e7ec604877b24526c9310213b8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-5_7ab1e464f46243e49b49365180025752_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_6a3290f6fe3c4061a464b974e5bd8124_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_c5091960b3f340aa80a6034d02027dfa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5a9a33e30c0b4943827be4b1c25112e9_master.jpg"
+  ],
+  "name": "Quần kaki denim xẻ lai",
+  "sku": " CMC12011003H",
+  "price": {
+    "sale": "359,000₫",
+    "old": "599,000₫"
+  },
+  "description": "Miêu tả: Quần kaki denim xẻ lai. Size: 26/27/28. Đặc tính: Trẻ trung-năng động – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen, trắng. Chất liệu: Thun 100% polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373a20bd941a081ab8f0"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_13de19ea39e54fc3a80403896d8077bd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_655039e45fa74e878872c43a86452562_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_d60ab029407c467c9986722b6bae5e5d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_5183feea07e9415099b330a1f443bf59_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_13de19ea39e54fc3a80403896d8077bd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_655039e45fa74e878872c43a86452562_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_d60ab029407c467c9986722b6bae5e5d_master.jpg"
+  ],
+  "name": "Quần short kaki denim basic",
+  "sku": " BAC12011001H",
+  "price": {
+    "sale": "224,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần short kaki denim basic. Size: 27,28,29. Đặc tính: Trẻ trung - Hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen. Chất liệu: Denim. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373c20bd941a081ab8f1"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/kem-3_78554b2ea4f5449baec874a901a44b17_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_2fe31d26aa0c4e70a1c96cb80b100a6b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_3462717ea4f64d88ac3eea32b8fd3d41_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_fca5cc86e08b404ea0e173ee22fa15dc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_ef008f48c9ad4c65926cfb25e4f3b2f2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_486d68b992304652aeb5c38c2bbbb851_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_32eb9a9110874d66acf2c7ba36425c0c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_4cd86a38e0504be8901cb3f17caba049_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/kem-3_78554b2ea4f5449baec874a901a44b17_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-2_2fe31d26aa0c4e70a1c96cb80b100a6b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-1_3462717ea4f64d88ac3eea32b8fd3d41_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem-4_fca5cc86e08b404ea0e173ee22fa15dc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_ef008f48c9ad4c65926cfb25e4f3b2f2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_486d68b992304652aeb5c38c2bbbb851_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_32eb9a9110874d66acf2c7ba36425c0c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_4cd86a38e0504be8901cb3f17caba049_master.jpg"
+  ],
+  "name": "Quần tây ống đứng",
+  "sku": " BAS1201002",
+  "price": {
+    "sale": "249,000₫",
+    "old": "499,000₫"
+  },
+  "description": "Miêu tả: Quần tây ống đứng. Size: S/M/L/XL. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục công sở. Màu sắc: Đen - kem. Chất liệu: Lạnh Korea. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064373f20bd941a081ab8f2"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/hong-2_a50e2f120fe842f5bfce36ff47c83eef_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-4_a1296d0afe144c819d61bb4df387ea97_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-1_f5105453d9074f38a14b05e2da92d2ca_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-5_038cceb94d684b94b1f9a7cbcaa1068b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_fb142267fe6d49f991b090e087339b5d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_b8382df7d421455884b4a13b06d773bc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_3d45589e724f4c2fa04026b826f1c82e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_b26960bfce6848a79038b4d455d8f66d_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/hong-2_a50e2f120fe842f5bfce36ff47c83eef_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-4_a1296d0afe144c819d61bb4df387ea97_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-1_f5105453d9074f38a14b05e2da92d2ca_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-5_038cceb94d684b94b1f9a7cbcaa1068b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_fb142267fe6d49f991b090e087339b5d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_b8382df7d421455884b4a13b06d773bc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_3d45589e724f4c2fa04026b826f1c82e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_b26960bfce6848a79038b4d455d8f66d_master.jpg"
+  ],
+  "name": "Quần organza suông",
+  "sku": " TDO12009065G",
+  "price": {
+    "sale": "399,000₫",
+    "old": "799,000₫"
+  },
+  "description": "Miêu tả: Quần organza suông. Size: S/M/L. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục đi tiệc, dạo phố. Màu sắc: Trắng - hồng. Chất liệu: Ren hoa cúc. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064374220bd941a081ab8f3"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_7e6f66333aa94983aa7d1594502e1301_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_056ef89e574f4674adfbc7dcdc9a8cfe_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_32305f75574c4b8aae4dbb94ea3408db_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_f6f70c16bb044ec7adde15c2229f4461_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_f8f6035480114d4cacb9c5288927ba39_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_43a093339b11403fb0f592592a23073d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_84d02dfba46947c994ce15d27669c2a8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_28d98e2bc11d4a0aab8f80b7cd98e9b8_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_7e6f66333aa94983aa7d1594502e1301_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_056ef89e574f4674adfbc7dcdc9a8cfe_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_32305f75574c4b8aae4dbb94ea3408db_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_f6f70c16bb044ec7adde15c2229f4461_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_f8f6035480114d4cacb9c5288927ba39_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_43a093339b11403fb0f592592a23073d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_84d02dfba46947c994ce15d27669c2a8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_28d98e2bc11d4a0aab8f80b7cd98e9b8_master.jpg"
+  ],
+  "name": "Quần dài caro",
+  "sku": " BAA12010039G",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần dài caro. Size: S/M/L. Đặc tính: Trẻ trung - năng động - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen, be. Chất liệu: Thun 100% polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064374520bd941a081ab8f4"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_ba8bb08ba9e54825bbac5eaa24d1a820_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_3088f163cf1e4f22bd48f9d10d4c5e67_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_885f0c28ee6b49c7a9d13ae9c277fd0f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-6_61a58d06d49143acb4b14c2029f47ba3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_61ebef8154c94ab0bba8dbd30cb46ad0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_73b21f4334a14ba29dead7b576f9fb7e_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_ba8bb08ba9e54825bbac5eaa24d1a820_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_3088f163cf1e4f22bd48f9d10d4c5e67_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_885f0c28ee6b49c7a9d13ae9c277fd0f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-6_61a58d06d49143acb4b14c2029f47ba3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_61ebef8154c94ab0bba8dbd30cb46ad0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_73b21f4334a14ba29dead7b576f9fb7e_master.jpg"
+  ],
+  "name": "Quần kaki denim ống rộng phối túi",
+  "sku": " TDA12010028H",
+  "price": {
+    "sale": "324,000₫",
+    "old": "649,000₫"
+  },
+  "description": "Miêu tả: Quần kaki denim ống rộng phối túi. Size: 27, 28, 29, 30. Đặc tính: Trẻ trung - năng động - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm, xanh nhạt. Chất liệu: 65% cotton 35 % polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064374b20bd941a081ab8f5"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/trang-1_764bebf129de4d67b67b24eb3e5c75ea_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_720e3e1def614fc28e616806ad3bafa8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_8131dd5b6b684d1ea62188bbe2013932_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_bf17f1c1c81740c3b2014f99ca5f913d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_5452286133d044db9f56c680542705f9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_bd8dd2eb94b1416da436bf87d25b6529_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_75aceae2f614435c8a360b0ea8613c0b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_0f55f820748f400289d3b61b8977880a_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/trang-1_764bebf129de4d67b67b24eb3e5c75ea_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_720e3e1def614fc28e616806ad3bafa8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_8131dd5b6b684d1ea62188bbe2013932_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_bf17f1c1c81740c3b2014f99ca5f913d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_5452286133d044db9f56c680542705f9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_bd8dd2eb94b1416da436bf87d25b6529_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_75aceae2f614435c8a360b0ea8613c0b_master.jpg"
+  ],
+  "name": "Quần kaki denim ống rộng",
+  "sku": " BAC12010027H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "599,000₫"
+  },
+  "description": "Miêu tả: Quần kaki denim ống rộng. Size: 27/28/29/30. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Trắng - Đen. Chất liệu: Trắng: Denim - Đen: 65% Cotton 35% Polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064374e20bd941a081ab8f6"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/kem__1__18bf5830311743beb45133091fd5d65a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__4__086b0a0ddd5d46ee918619565ffc78bf_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__2__3c4ea5d21ef1444c98f30157c28cf14e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__3__7f8cda9a70384a33976cc7584f74fe92_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__1__5b722bd27514479e8bc01262bd348fd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__4__36b1ea45e1d943ebae726b680b3c1dd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__3__459ea5e21c1e4ad486d432a9338d8cc7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__2__3ec3ddfe2f9d45708bf3dae76f2b85eb_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/kem__1__18bf5830311743beb45133091fd5d65a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__4__086b0a0ddd5d46ee918619565ffc78bf_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__2__3c4ea5d21ef1444c98f30157c28cf14e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/kem__3__7f8cda9a70384a33976cc7584f74fe92_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__1__5b722bd27514479e8bc01262bd348fd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__4__36b1ea45e1d943ebae726b680b3c1dd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__3__459ea5e21c1e4ad486d432a9338d8cc7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den__2__3ec3ddfe2f9d45708bf3dae76f2b85eb_master.jpg"
+  ],
+  "name": "Quần dài ống loe xẻ trước",
+  "sku": " TDO12010009G",
+  "price": {
+    "sale": "349,000₫",
+    "old": "699,000₫"
+  },
+  "description": "Miêu tả: Quần dài ống loe xẻ trước. Size: S/M/L/XL. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục đi tiệc. Màu sắc: Đen - kem. Chất liệu: Carolan. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064375220bd941a081ab8f7"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-3_e0cf32ac487b4035b7c793c339b1eaf2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_f7e200b7144b4d8893d5498b063e90e1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_af72c38e492f48aea4b6183f9f0e325c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_43d6f0bd9ef24979ab4849c1f01fd53c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_ce4b97e667c64e5db5e1cd1e10e5eeab_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_2159473e195f48dcb945238b21ff1036_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_b4b3e3164c44452c99fc18816792ddc2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_76cbaffd7c844f6ab839034d70e5e29e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-3_3b960ea94a7440fcbe4dd6298dac3fce_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-2_c5207b3ab64b4355995e818e57c26eb4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-1_be887df9a85a4549a82910b6030b321b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-4_16981fe3f3fc43b0a91fd7d3406274c6_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-3_e0cf32ac487b4035b7c793c339b1eaf2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_f7e200b7144b4d8893d5498b063e90e1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_af72c38e492f48aea4b6183f9f0e325c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_43d6f0bd9ef24979ab4849c1f01fd53c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-3_ce4b97e667c64e5db5e1cd1e10e5eeab_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_2159473e195f48dcb945238b21ff1036_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_b4b3e3164c44452c99fc18816792ddc2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_76cbaffd7c844f6ab839034d70e5e29e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-3_3b960ea94a7440fcbe4dd6298dac3fce_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-2_c5207b3ab64b4355995e818e57c26eb4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-1_be887df9a85a4549a82910b6030b321b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/hong-4_16981fe3f3fc43b0a91fd7d3406274c6_master.jpg"
+  ],
+  "name": "Quần ống rộng",
+  "sku": " TDA12009053G",
+  "price": {
+    "sale": "264,000₫",
+    "old": "529,000₫"
+  },
+  "description": "Miêu tả: Quần ống rộng. Size: S/M/L. Đặc tính: Trẻ trung - năng động - hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen, hồng, trắng. Chất liệu: Cotton 35% polyester. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064375420bd941a081ab8f8"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_1_5d528fdc1bbd4ede8fe37f86adc6b45f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_2_a6f8d6d5fc7747c69d76e744f1d8f5d1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_3_24be84ed2c49431ab32bc804d6cba583_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_4_4e10a2be591947368732360e6448eba4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_1_4ebb076042e14c9faf04da16e31228c4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_2_93d47b8962e24c8d81da3c41ca357002_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_3_202123a62da44a7492f910c26177cb62_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_4_d868c1448f5c4d119f1f43904e87c4c9_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_1_5d528fdc1bbd4ede8fe37f86adc6b45f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_2_a6f8d6d5fc7747c69d76e744f1d8f5d1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_3_24be84ed2c49431ab32bc804d6cba583_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_baa12009026hh_4_4e10a2be591947368732360e6448eba4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_1_4ebb076042e14c9faf04da16e31228c4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_2_93d47b8962e24c8d81da3c41ca357002_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_3_202123a62da44a7492f910c26177cb62_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_baa12009026hh_4_d868c1448f5c4d119f1f43904e87c4c9_master.jpg"
+  ],
+  "name": "Quần kaki jean basic",
+  "sku": " BAA12009026H",
+  "price": {
+    "sale": "224,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần kaki jean basic. Size: 27/28/29/30. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm – xanh nhạt. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064375720bd941a081ab8f9"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_1_ba9e90b7c4bd4886b67f6f58f06e7707_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_2_9d91c74089a84293965ed8951a91dcd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_3_e2f278f229d54b60aa2e565777744482_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_4_9e4162c25c4c4a20a8c53bccc40a655c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_1_b5e92441b7004885911d79bb250b27b8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_2_fa2c2ed5b7fd4d3596d0c24fde07ca51_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_3_83ac498788ec42a6bb5eba209f4fcd63_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_4_cc8c4583bad7490da848f7d048430215_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_1_ba9e90b7c4bd4886b67f6f58f06e7707_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_2_9d91c74089a84293965ed8951a91dcd6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_3_e2f278f229d54b60aa2e565777744482_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau_tdc12009029nm_4_9e4162c25c4c4a20a8c53bccc40a655c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_1_b5e92441b7004885911d79bb250b27b8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_2_fa2c2ed5b7fd4d3596d0c24fde07ca51_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_3_83ac498788ec42a6bb5eba209f4fcd63_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_tdc12009029nm_4_cc8c4583bad7490da848f7d048430215_master.jpg"
+  ],
+  "name": "Quần dài ống rộng lai lật",
+  "sku": " TDC12009029N",
+  "price": {
+    "sale": "299,000₫",
+    "old": "599,000₫"
+  },
+  "description": "Miêu tả: Quần dài ống rộng lai lật. Size: S/M/L. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục công sở. Màu sắc: Đen - nâu. Chất liệu: Khaki chéo. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064375a20bd941a081ab8fa"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_3778d49560ef40d6a7b8ed9b2b80ef72_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_1fd098c8d41f4044b8114c232329f9d4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_d38486dbeed14d8f9ed5e34adaa63ab4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_a7991649e0aa4b0a89a52404cfd2bf43_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-2_337269023d22478eaaab508adabb59a7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_6604c513dc3c461ca498f59544365dfb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_32ea5022e17a46099ce0c4bf635908af_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_153485c8d0ac4d858485f1d14c6615b7_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_3778d49560ef40d6a7b8ed9b2b80ef72_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_1fd098c8d41f4044b8114c232329f9d4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_d38486dbeed14d8f9ed5e34adaa63ab4_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_a7991649e0aa4b0a89a52404cfd2bf43_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-2_337269023d22478eaaab508adabb59a7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-3_6604c513dc3c461ca498f59544365dfb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-1_32ea5022e17a46099ce0c4bf635908af_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat-4_153485c8d0ac4d858485f1d14c6615b7_master.jpg"
+  ],
+  "name": "Quần short kaki jean paper bag",
+  "sku": " CMA12009015H",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần short kaki jean paper bag. Size: 27/28/29/30. Đặc tính: Năng động- hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm/ xanh nhạt. Chất liệu: Jean. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064375d20bd941a081ab8fb"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_1_5b80d7c3134840c9bc76f46e86cbe564_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_2_79431674fbf94136bfa53099c1eb4224_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_3_05cbd9d68ef346efb34cf02bdd3215ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_4_26a1843511c449db94fdc57944c6b279_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_1_77bb7e18bd7d4e7f9f30289ae2b25a2d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_2_88b7c9cbe8de4310b9d0a7d904b3cf70_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_3_8f2a1e4102c544508c3777ad9f0cfbed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_4_02d29cd7df944dcb87e5f97440454022_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_1_5b80d7c3134840c9bc76f46e86cbe564_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_2_79431674fbf94136bfa53099c1eb4224_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_3_05cbd9d68ef346efb34cf02bdd3215ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_cms12008037hh_4_26a1843511c449db94fdc57944c6b279_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_1_77bb7e18bd7d4e7f9f30289ae2b25a2d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_2_88b7c9cbe8de4310b9d0a7d904b3cf70_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_3_8f2a1e4102c544508c3777ad9f0cfbed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_cms12008037hh_4_02d29cd7df944dcb87e5f97440454022_master.jpg"
+  ],
+  "name": "Quần kaki jean dài suông",
+  "sku": " CMS12008037H",
+  "price": {
+    "sale": "324,000₫",
+    "old": "649,000₫"
+  },
+  "description": "Miêu tả: Quần kaki jean dài suông. Size: 27/28/29/30. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm – xanh nhạt. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376020bd941a081ab8fc"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_1_d90ac0bdd62e4ab1af4aef98760da660_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_3_1e024fc76b2046aabe72cb26f76bbcca_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_2_eb4aaa703ba3405c8eb0e41464c8e482_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_4_260bbbcc2c794e7a85ad49638e54b548_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_1_d42bdac777654ee5b1fc49e0c8f3ed37_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_3_222976dbdb68457ab535d43382e9bd33_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_2_eeca42fccc344a1e8d13c5a3140db4ab_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_4_ccb92604322f4985b337ebc4f73b6081_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_1_d90ac0bdd62e4ab1af4aef98760da660_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_3_1e024fc76b2046aabe72cb26f76bbcca_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_2_eb4aaa703ba3405c8eb0e41464c8e482_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den_cmc12008022nm_4_260bbbcc2c794e7a85ad49638e54b548_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_1_d42bdac777654ee5b1fc49e0c8f3ed37_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_3_222976dbdb68457ab535d43382e9bd33_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang_cmc12008022nm_2_eeca42fccc344a1e8d13c5a3140db4ab_master.jpg"
+  ],
+  "name": "Quần short tailor",
+  "sku": " CMC12008022N",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần short tailor Size: S/M/L. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen – trắng. Chất liệu: Thun cotton. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376220bd941a081ab8fd"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_1_36365a2cd41341dbb41b7ca6be513c72_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_2_4ab57208384446678a1a797286b70405_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_3_87ad90e2efe74184b24b46779bf37de8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_4_81501e2279084a42b8c23d646292db31_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_1_446effd475194c83bc183c87110adf56_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_2_c31de96580354415a6ea35d4e39e0ea2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_3_584e340a4e264e4bbb433533cd7f3225_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_4_fe794a7883404ae1a4ec7174d0637402_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_1_36365a2cd41341dbb41b7ca6be513c72_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_2_4ab57208384446678a1a797286b70405_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_3_87ad90e2efe74184b24b46779bf37de8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam_bac12008002hh_4_81501e2279084a42b8c23d646292db31_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_1_446effd475194c83bc183c87110adf56_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_2_c31de96580354415a6ea35d4e39e0ea2_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_3_584e340a4e264e4bbb433533cd7f3225_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-nhat_bac12008002hh_4_fe794a7883404ae1a4ec7174d0637402_master.jpg"
+  ],
+  "name": "Quần short jean xẻ lai",
+  "sku": " BAC12008002H",
+  "price": {
+    "sale": "214,000₫",
+    "old": "429,000₫"
+  },
+  "description": "Miêu tả: Quần short jean xẻ lai. Size: 27/28/29. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm – xanh nhạt. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376520bd941a081ab8fe"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_1_3c1b62a10d2c4ac9ad2aa593a1599db6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_2_385abeb3b0fd4d819080b8b4d288421e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_3_fc57109f816c4962b2e31f17d84be9ed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_5_6e7d5be12b574581b121b3e71bb7b0ed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_1_f82c9e659c7b4233acc7ba041cbcd6a9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_3_2c299deab7fb4ad1aca4ca6ea6818fbc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_4_b073fad14443444c8184b48f6ecd5544_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_2_d81606a8987842c8b4231f4dab29bcb1_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_1_3c1b62a10d2c4ac9ad2aa593a1599db6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_2_385abeb3b0fd4d819080b8b4d288421e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_3_fc57109f816c4962b2e31f17d84be9ed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang_bac12008003nm_5_6e7d5be12b574581b121b3e71bb7b0ed_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_1_f82c9e659c7b4233acc7ba041cbcd6a9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_3_2c299deab7fb4ad1aca4ca6ea6818fbc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_4_b073fad14443444c8184b48f6ecd5544_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh_bac12008003nm_2_d81606a8987842c8b4231f4dab29bcb1_master.jpg"
+  ],
+  "name": "Quần baggy phối dây belt",
+  "sku": " BAC12008003N",
+  "price": {
+    "sale": "274,000₫",
+    "old": "549,000₫"
+  },
+  "description": "Miêu tả: Quần baggy phối dây belt. Size: S/M/L/XL. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục công sở. Màu sắc: Vàng - xanh. Chất liệu: Bố xước. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376820bd941a081ab8ff"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xam-4_d4be341788fd4181a175995b95525de9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_144d36b2031d463c9b424eb5585dbe4b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_e9af4d5caa444559a5774c5881f195c1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_152ce65bacd5462a9d7821de18d8b43d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_028ce4ebdde349fab9655adebb984a8c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_194b26bc893c46379dc0d2bd62f94915_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_8df47064f20244c4aaeec2bea487444e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_0ca2e23ee6fd4c5e921fcc6aaebd65f5_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xam-4_d4be341788fd4181a175995b95525de9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_144d36b2031d463c9b424eb5585dbe4b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_e9af4d5caa444559a5774c5881f195c1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_152ce65bacd5462a9d7821de18d8b43d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_028ce4ebdde349fab9655adebb984a8c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_194b26bc893c46379dc0d2bd62f94915_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_8df47064f20244c4aaeec2bea487444e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_0ca2e23ee6fd4c5e921fcc6aaebd65f5_master.jpg"
+  ],
+  "name": "Quần short ống rộng",
+  "sku": " TDO12004031G",
+  "price": {
+    "sale": "199,000₫",
+    "old": "449,000₫"
+  },
+  "description": "Miêu tả: Quần short ống rộng. Size: S/M/L. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh - xám. Chất liệu: Bố caro. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376a20bd941a081ab900"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/nau-4_fa43d8f0f0734964b57ff4fb6b33d3cd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_1de2312c2e34496281211766f8f38ac8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_2b76a37bcc1f4074be68e232409161ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_4d588a999adb4519b7a5f09735208bac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_6afa00b2852244efacb3d37e9f88334e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1783f846806747f3917265df400bf889_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_663add5b9aa949be89bbda35f7aa4693_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-10_409dba746fd64052930529f108b3c5b5_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/nau-4_fa43d8f0f0734964b57ff4fb6b33d3cd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_1de2312c2e34496281211766f8f38ac8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_2b76a37bcc1f4074be68e232409161ac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_4d588a999adb4519b7a5f09735208bac_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_6afa00b2852244efacb3d37e9f88334e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1783f846806747f3917265df400bf889_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_663add5b9aa949be89bbda35f7aa4693_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-10_409dba746fd64052930529f108b3c5b5_master.jpg"
+  ],
+  "name": "Quần dài ống đứng lai phối nút",
+  "sku": " CMS12004009N",
+  "price": {
+    "sale": "299,000₫",
+    "old": "599,000₫"
+  },
+  "description": "Miêu tả: Quần dài ống đứng lai phối nút. Size: S/M/L/XL. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục công sở. Màu sắc: Nâu - đen. Chất liệu: Lạnh Korea. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064376d20bd941a081ab901"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/vang-4_2f5af3c8825547d294d0121030e0ef75_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_3da10b7e646a480ab927e8a899767b27_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_b8e625934a364faaa1f59b757e3f2e97_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_8049e53c8193482b87ce18130cb8409a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_fc9a5bd347fa465f913c1a8f2f19cbb7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_d70e381b297d4bb08f3b19ab8faa9fcd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_e759f4b418fc4f39a6eb40b58ac2ed6e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1774c1b2dacf4437b88c4ce150a30106_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/vang-4_2f5af3c8825547d294d0121030e0ef75_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_3da10b7e646a480ab927e8a899767b27_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_b8e625934a364faaa1f59b757e3f2e97_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_8049e53c8193482b87ce18130cb8409a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_fc9a5bd347fa465f913c1a8f2f19cbb7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_d70e381b297d4bb08f3b19ab8faa9fcd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_e759f4b418fc4f39a6eb40b58ac2ed6e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_1774c1b2dacf4437b88c4ce150a30106_master.jpg"
+  ],
+  "name": "Quần short ly phối nút",
+  "sku": " CMO12004022N",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần short ly phối nút. Size: S/M/L/XL. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Vàng - đen. Chất liệu: Lụa dày mịn. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377020bd941a081ab902"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-1_5cb1f963e9764554ba50c769f5c9ce48_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_7bd922532d704db59ca7c0ea10bbe340_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_b4fa04ec07b44397a2460d6913a5798e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_75614d89e97e48dfa0bc7bfd7aa100b6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_26cf9e43bc9a4b8a994c4f0c8cda0dbb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_e6cd7b9955ba4102bde0ef2fdc5f9b0d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_4f18dcb2f7f64562b271767e9ecafced_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_5faa37d9a1e84f75953eb52f7b79c139_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-1_5cb1f963e9764554ba50c769f5c9ce48_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_7bd922532d704db59ca7c0ea10bbe340_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-2_b4fa04ec07b44397a2460d6913a5798e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-4_75614d89e97e48dfa0bc7bfd7aa100b6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_26cf9e43bc9a4b8a994c4f0c8cda0dbb_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_e6cd7b9955ba4102bde0ef2fdc5f9b0d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_4f18dcb2f7f64562b271767e9ecafced_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_5faa37d9a1e84f75953eb52f7b79c139_master.jpg"
+  ],
+  "name": "Quần ống đứng dài",
+  "sku": " CMO12002055N",
+  "price": {
+    "sale": "199,000₫",
+    "old": "529,000₫"
+  },
+  "description": "Miêu tả: Quần ống đứng phối nẹp lưng. Size: S/M/L/XL. Đặc tính: Thanh lịch – hiện đại. Thể loại: Trang phục dạo phố – công sở. Màu sắc: Xanh - kem. Chất liệu: Bố khaki 2 mặt. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377320bd941a081ab903"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-4_6408087cdb5944799dca7830bffea81b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_3f33622f01654829808f89a76f2ee19f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_8283e86ca80d4b96a14dd6560b3e3586_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_eddc755f46b4484db85dc003afe47cc9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-4_46e0724e550d4ea2aa79fc3941e0c628_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_71e18f52aa7647a8a622bd5fb9b925bc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_4c1cbe75074848d1980dbc7ab1518193_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_750ecca0ef484065aba24ad73cfbf7b6_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-4_6408087cdb5944799dca7830bffea81b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_3f33622f01654829808f89a76f2ee19f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_8283e86ca80d4b96a14dd6560b3e3586_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_eddc755f46b4484db85dc003afe47cc9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-4_46e0724e550d4ea2aa79fc3941e0c628_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-3_71e18f52aa7647a8a622bd5fb9b925bc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-2_4c1cbe75074848d1980dbc7ab1518193_master.jpg",
+    "https://product.hstatic.net/200000000131/product/vang-1_750ecca0ef484065aba24ad73cfbf7b6_master.jpg"
+  ],
+  "name": "Quần baggy phối nút",
+  "sku": " CMS1200404",
+  "price": {
+    "sale": "299,000₫",
+    "old": "649,000₫"
+  },
+  "description": "Miêu tả: Quần baggy phối nút. Size: S/M/L/XL. Đặc tính: Hiện đại – thanh lịch. Thể loại: Trang phục dạo phố – công sở. Màu sắc: Vàng - đen. Chất liệu: Khaki nhung. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377620bd941a081ab904"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xam-1_a51d84b25f4846eebc99343e5d8e5469_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_84eef759f11447248cd5010ed211b543_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_075ebb255d354eafaab0c66f0e287376_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_45333e733fa54629bdef82821e899083_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-1_10ee8ac4f69043fdafeae0059b97593a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-3_0103897fdc234258bd4bf2f62c5d31a8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-4_9c738c5ed4a54b0ea2f3f357f0df112e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-2_fb8b7b13fc9f428eb52d8a9e2ee1eea9_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xam-1_a51d84b25f4846eebc99343e5d8e5469_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_84eef759f11447248cd5010ed211b543_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_075ebb255d354eafaab0c66f0e287376_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_45333e733fa54629bdef82821e899083_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-1_10ee8ac4f69043fdafeae0059b97593a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-3_0103897fdc234258bd4bf2f62c5d31a8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-4_9c738c5ed4a54b0ea2f3f357f0df112e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-dam-2_fb8b7b13fc9f428eb52d8a9e2ee1eea9_master.jpg"
+  ],
+  "name": "Quần jean ống rộng",
+  "sku": " BPO12004034H",
+  "price": {
+    "sale": "274,000₫",
+    "old": "549,000₫"
+  },
+  "description": "Miêu tả:Quần jean ống rộng. Size: 27/28/29/30. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Xám đậm – xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377920bd941a081ab905"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_c3743755eb9f4511b5d384f089bb69fd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_af6dce833bd54b979bf5e0b5cd4716dc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_03df38e4e2b34d2cba642970068190a3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_17d4e82a2dc045d09f9fdfe473bb82e9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_4e5d4abfe99f4ecab4e264c5fd5b2a09_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-45_d36959e8e32d4c78bdf8118e2e2cc885_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_38dfc37e1c6049a2a54e772ea755ef48_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_319abdde48474f1a9a215a1716041e54_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_c3743755eb9f4511b5d384f089bb69fd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_af6dce833bd54b979bf5e0b5cd4716dc_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_03df38e4e2b34d2cba642970068190a3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-4_17d4e82a2dc045d09f9fdfe473bb82e9_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-2_4e5d4abfe99f4ecab4e264c5fd5b2a09_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-45_d36959e8e32d4c78bdf8118e2e2cc885_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-1_38dfc37e1c6049a2a54e772ea755ef48_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-dam-3_319abdde48474f1a9a215a1716041e54_master.jpg"
+  ],
+  "name": "Quần short lưng lệch 4 nút",
+  "sku": " BPC12004032H",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần short lưng lệch 4 nút. Size: S/M/L. Đặc tính: Năng động – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Xanh đậm – xanh nhạt. Chất liệu: Denim. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377c20bd941a081ab906"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/nau-4_51a5186491384e01bedd556a40f34d3d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_457029cbcb214feea83ba98c03d98bb0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_f8eb41b834fe42628be30a59526510e6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_c8d9135d92ae48c7a2c03be87f0327d3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_f41960e047774c9aaed40b4b5dd6e796_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_01b1aced21d04248a77bbc19ac489402_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_cce093c6df7f4e1db46952b5b369547b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a696bcb60f624672b497b95e27223198_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/nau-4_51a5186491384e01bedd556a40f34d3d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-1_457029cbcb214feea83ba98c03d98bb0_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-3_f8eb41b834fe42628be30a59526510e6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_c8d9135d92ae48c7a2c03be87f0327d3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_f41960e047774c9aaed40b4b5dd6e796_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_01b1aced21d04248a77bbc19ac489402_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_cce093c6df7f4e1db46952b5b369547b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a696bcb60f624672b497b95e27223198_master.jpg"
+  ],
+  "name": "Quần short túi đắp",
+  "sku": " CMC12002047G",
+  "price": {
+    "sale": "179,000₫",
+    "old": "359,000₫"
+  },
+  "description": "Miêu tả: Quần short túi đắp. Size: S/M/L/XL. Đặc tính: Thanh lịch – trẻ trung. Thể loại: Trang phục dạo phố. Màu sắc: Nâu - đen. Chất liệu: Bố chỉ nổi. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064377f20bd941a081ab907"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_f7552a3f3c90408f8cc062a5bfed2307_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_fe5cacbd768841318f3c347bc97f4f26_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_c076d3e8a7414c7b9c85071cbc92da31_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_0b49054bca254d8eb76d45f7437dbade_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_e1d2e96ab5e54509b9f54772a3031067_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-5_54f2cdc59c9f431d8701b65186c1d319_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_f154e2facbe043a9844c4275ae9c9ef6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-4_04a4922213f54636a59db4322d21858a_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_f7552a3f3c90408f8cc062a5bfed2307_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_fe5cacbd768841318f3c347bc97f4f26_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_c076d3e8a7414c7b9c85071cbc92da31_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_0b49054bca254d8eb76d45f7437dbade_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-1_e1d2e96ab5e54509b9f54772a3031067_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-5_54f2cdc59c9f431d8701b65186c1d319_master.jpg",
+    "https://product.hstatic.net/200000000131/product/trang-2_f154e2facbe043a9844c4275ae9c9ef6_master.jpg"
+  ],
+  "name": "Quần short lưng liền nút kiểu",
+  "sku": " SMA200101",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Quần short lưng liền nút kiểu. Size: S/M/L. Đặc tính: Trẻ trung – hiện đại. Thể loại: Trang phục dạo phố. Màu sắc: Đen - trắng. Chất liệu: Bố khaki 2 mặt. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064378420bd941a081ab908"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/nau-1_d60673976ddf4dfda95a19c379955812_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-5_0b9af511652f4542abd5bf7018185217_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_3eaf674006804c099b1a73774f416f69_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_06a16cbd6b90483989cc1369e37944f8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_05b446289c514a7cb357f6dc8e669078_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_527464430e644ad1a1578e0180aacc75_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_c708c4a689b945de88895292d479f00d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5452d3b71773429dabe32fabdc6b573e_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/nau-1_d60673976ddf4dfda95a19c379955812_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-5_0b9af511652f4542abd5bf7018185217_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-2_3eaf674006804c099b1a73774f416f69_master.jpg",
+    "https://product.hstatic.net/200000000131/product/nau-4_06a16cbd6b90483989cc1369e37944f8_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_05b446289c514a7cb357f6dc8e669078_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_527464430e644ad1a1578e0180aacc75_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_c708c4a689b945de88895292d479f00d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5452d3b71773429dabe32fabdc6b573e_master.jpg"
+  ],
+  "name": "Váy quần basic",
+  "sku": " BAA200103",
+  "price": {
+    "sale": "199,000₫",
+    "old": "399,000₫"
+  },
+  "description": "Miêu tả: Váy quần basic. Size: S/M/L/XL. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen - Nude. Chất liệu: Bố chỉ nổi. Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size M). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064378720bd941a081ab909"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xanh-2_b0eaec5998e342d6ac727237f30e1afd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_f678df6ca4194c10867499f41e40c8d1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_738b6b3817e74281ad8829cebe407de6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-2_c66d0062f53e43459d6c78594242d22e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-3_a80a6f26511b4c56a2f834310cf30f2c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-1_01544ea160a147d5adff753a91b4e6c5_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xanh-2_b0eaec5998e342d6ac727237f30e1afd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-1_f678df6ca4194c10867499f41e40c8d1_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-3_738b6b3817e74281ad8829cebe407de6_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-2_c66d0062f53e43459d6c78594242d22e_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-3_a80a6f26511b4c56a2f834310cf30f2c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xanh-mo-1_01544ea160a147d5adff753a91b4e6c5_master.jpg"
+  ],
+  "name": "QUẦN PATH lai lệch",
+  "sku": " BAA2001002H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "659,000₫"
+  },
+  "description": "Miêu tả: QUẦN PATH lai lệch. wash Size: 27/28/29/30/31. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Xanh– xanh mờ. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt).Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064378a20bd941a081ab90a"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-3_eb172d79a2cc4bb4a5503a9c17453d1f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_81bc24d28f104b70861fad3b635eb86f_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_6af6cdb31b4d43febce5f85d8c7b6d7d_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_a35aafbd12a84031ae45937f778369c7_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-5_305e2f37c6784be6a5af38f273dc8346_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_edb62fd3b54547e5bf51e9409fcc5d38_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_a68fd012c2624585bb37583aeae6707b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_33cbfeb06765495482cd66a44c605a84_master.jpg"
+  ],
+  "name": "Quần kaki jean rách gối",
+  "sku": " BA1912003H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "659,000₫"
+  },
+  "description": "Miêu tả: Quần kaki jean rách gối. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064378e20bd941a081ab90b"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/xam-1_082ac5591a3d4607a2a24c55bfddfb50_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_67bb9d7c2efb4ed5a96da7c17b743ea3_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_c22f4a2546a149aaa562cf193f81f4ee_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_7321b442ef6347b98ee60ae43880c1fd_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-5_ece02f67d2f5486ba4b788e961f8462b_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-1_36a7d9328834454f8a491209a9fc2d46_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_c733d3309c054b5db76ca53b8adfe653_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_b97ff019fa2748b594d894a8a220f93d_master.jpg"
+  ],
+  "name": "Quần kaki jean basic xẻ lai",
+  "sku": " BA1912001H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "659,000₫"
+  },
+  "description": "Miêu tả: Quần kaki jean basic xẻ lai. Size: 27/28/29/30/31. Đặc tính: Trẻ trung – thanh lịch. Thể loại: Trang phục công sở - dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 173 cm. Số đo 3 vòng: 80 - 61 - 88 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6064379020bd941a081ab90c"
+  },
+  "images": [
+    "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg",
+    "",
+    "https://product.hstatic.net/200000000131/product/den-1_7fc99faffeb3486fa404af6840eedd86_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-2_9de1452bc3e54701a7a60e1e0708744c_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-3_5d5e4eb8e4e249e98456dbfea02e6faa_master.jpg",
+    "https://product.hstatic.net/200000000131/product/den-4_47094f96f67b4611869c2c1804651217_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-3_5b124d096a7549c99370bdbf1ffc4e7a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-1_da35f1868aa44000a9b3ec6012c4fd92_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-4_bda3f1885f52465fb1f3bb933e3c971a_master.jpg",
+    "https://product.hstatic.net/200000000131/product/xam-2_9eabe639882e44e29d2fe84ff3d8b08d_master.jpg"
+  ],
+  "name": "QUẦN PATH lai lệch",
+  "sku": " BA1911002H",
+  "price": {
+    "sale": "299,000₫",
+    "old": "699,000₫"
+  },
+  "description": "Miêu tả: QUẦN PATH lai lệch. wash Size: 27/28/29/30/31. Đặc tính: Trẻ trung – năng động. Thể loại: Trang phục dạo phố. Màu sắc: Đen - Xám. Chất liệu: Denim (không ra màu, thấm hút mồ hôi tốt). Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size 27). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+  "category": "Quần",
+  "__v": 0
+}]

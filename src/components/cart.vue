@@ -7,7 +7,7 @@
       
      <Image  src="~/assets/images/icon/logo.png" col="0" class="logo" stretch="aspectFill" />
      <!-- <ActionItem   text="Checkout" @tap="gotocheckout" ios.position="right" /> -->
-    <Label col="1"  v-if="this.$store.state.cart.length != 0" text="CHECKOUT" @tap="gotocheckout" textWrap="true" />
+    <Label col="1"  v-if="this.$store.state.cart.length != 0 && this.$store.state.infouser.name != undefined" text="CHECKOUT" @tap="gotocheckout" textWrap="true" />
     </GridLayout>
     
    </ActionBar>
@@ -15,7 +15,7 @@
    
     
 
-    <GridLayout rows="*" columns="*">
+    <GridLayout rows="*" columns="*"  v-if="this.$store.state.infouser.name != undefined">
       <DockLayout stretchLastChild="true" backgroundColor="#ffffff">
       <Footer dock="bottom"></Footer>
         <GridLayout
@@ -120,16 +120,27 @@
 
       </DockLayout>
     </GridLayout>
+
+    <GridLayout v-else rows="*" columns="*">
+  <DockLayout stretchLastChild="true">
+      <FlexboxLayout dock="bottom" alignItems="center" justifyContent="space-between" padding="5">
+                <Button backgroundColor="#4d4d4d" class="btn"  color="white"  margin="10"  horizontalAlignment="left" width="auto"  text="Sign in" @tap="gotosignin" />
+                <Button backgroundColor="#4d4d4d" class="btn"  color="white" margin="10" horizontalAlignment="right" width="auto"  text="Sign up" @tap="gotosignup" />
+            </FlexboxLayout>
+    <Label fontSize="20" textWrap="true" textAlign="center" class="text" text="Bạn chưa đăng nhập hãy đăng nhập nào!"/>
+  </DockLayout>
+    </GridLayout>
   </Page>
 </template>
       
 <script>
 // var frameModule = require("ui/frame");
 // import Footer from './include/footer.vue'
+import login from './signin.vue';
+import signup from './signup.vue'
 import checkout from './checkout.vue'
 import cart from './cart.vue'
 import app from './App.vue'
-import login from './signin.vue'
 import product  from './allproduct/products.vue'
 export default {
  name: 'ParentComponent',
@@ -173,6 +184,22 @@ export default {
     },
   },
   methods:{
+    gotosignin(){
+                this.$navigateTo(login,{clearHistory:true,
+                   transition: {
+                    name: "slideLeft",
+                    duration: 300,
+                    curve: "easeIn",
+                },})
+            },
+            gotosignup(){
+                this.$navigateTo(signup,{clearHistory:true,
+                   transition: {
+                    name: "slideLeft",
+                    duration: 300,
+                    curve: "easeIn",
+                },})
+            },
     gotocheckout(){
       var all = {}
       all.count = this.count
@@ -332,5 +359,10 @@ GridLayout {
 }
 .empty{
   text-align: center;
+}
+.text{
+  padding-top: 250;
+  text-align: center;
+    margin: 20;
 }
 </style>

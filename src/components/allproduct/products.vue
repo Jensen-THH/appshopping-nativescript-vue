@@ -44,7 +44,6 @@
                                         
                                             <GridLayout>
                                                 <Image :src="item"></Image>
-                                                <!-- <Label :text="item.title" horizontalAlignment="center" backgroundColor="#50000000" height="30"></Label> -->
                                             </GridLayout>
                                             </CarouselItem> 
                                         </Carousel>
@@ -67,11 +66,11 @@
                                         <Image v-else horizontalAlignment="right" src="~/assets/images/iconshopingapp/love-it-circle.png"  @tap="loveit(product)" stretch="none" />
                                         
                                     </FlexboxLayout>
-                                        <Button text="add" @tap="addCart(product)" />
+                                        <Button backgroundColor="#4b4b4b" color="white" text="ADD TO CART" @tap="addCart(product)" />
                                         <Label  class="description comment" :text="product.description | newline" textWrap="true" />
                                         <GridLayout class="comment" rows="auto" columns="*,auto">
                                         <TextField hint="Nhập bình luận..." col="0" v-model="binhluan" />
-                                        <Button text="Send" col="1" @tap="send" />
+                                        <Button backgroundColor="#4b4b4b" color="white" text="Send" col="1" @tap="send" />
                                         </GridLayout>
                                 <StackLayout>
                                 <Label text="Comment:" textWrap="true" />
@@ -157,6 +156,27 @@ export default ({
    methods:{
 
        send(){
+           if (this.$store.state.infouser.name == undefined){
+               confirm({
+                title: "JSShop",
+                message: "Đăng nhập ngay !",
+                okButtonText: "Đông ý",
+                cancelButtonText: "Huỷ"
+                }).then(result => {
+                if (result==true){
+                        this.$navigateTo(login,
+                                {clearHistory:true,
+                                transition: {
+                                name: "slideLeft",
+                                duration: 300,
+                                curve: "easeIn",
+                                },})
+                }
+                });
+        
+    
+      }
+           else{
           var data ={}
           data.productID = this.product._id.$oid
           data.comment = {}
@@ -169,24 +189,28 @@ export default ({
                 utils.ad.dismissSoftInput();
 
             }
+           }
        },
        addCart(product){
-if (this.$store.state.infouser.name == undefined){
-        alert({
-          title:'JSShop',
-          message:'Vui lòng đăng nhập tài khoản để mua hàng!',
-          okButtonText: "Ok"
-        })
-        this.$navigateTo(login,
-           {
-             clearHistory:true,
-        transition: {
-          name: "slideLeft",
-          duration: 300,
-          curve: "easeIn",
-        },
-      }
-        )
+        if (this.$store.state.infouser.name == undefined){
+               confirm({
+                title: "JSShop",
+                message: "Đăng nhập ngay !",
+                okButtonText: "Đông ý",
+                cancelButtonText: "Huỷ"
+                }).then(result => {
+                if (result==true){
+                        this.$navigateTo(login,
+                                {clearHistory:true,
+                                transition: {
+                                name: "slideLeft",
+                                duration: 300,
+                                curve: "easeIn",
+                                },})
+                }
+                });
+        
+    
       }
            else{
            this.$store.commit("add", product);
@@ -199,23 +223,27 @@ if (this.$store.state.infouser.name == undefined){
        },
        loveit(product){
 
-           if (this.$store.state.infouser.name == undefined){
-        alert({
-          title:'JSShop',
-          message:'Vui lòng đăng nhập tài khoản để mua hàng!',
-          okButtonText: "Ok"
-        })
-        this.$navigateTo(login,
-           {
-             clearHistory:true,
-        transition: {
-          name: "slideLeft",
-          duration: 300,
-          curve: "easeIn",
-        },
+                   if (this.$store.state.infouser.name == undefined){
+               confirm({
+                title: "JSShop",
+                message: "Đăng nhập ngay !",
+                okButtonText: "Đông ý",
+                cancelButtonText: "Huỷ"
+                }).then(result => {
+                if (result==true){
+                        this.$navigateTo(login,
+                                {clearHistory:true,
+                                transition: {
+                                name: "slideLeft",
+                                duration: 300,
+                                curve: "easeIn",
+                                },})
+                }
+                });
+        
+    
       }
-        )
-      }else{
+          else{
            this.$store.commit('addlove',product)
              alert({
                title:'JSshop',
@@ -321,5 +349,6 @@ font-size: 18;
 .loveit{
     background: rgb(255, 32, 32);
     border-radius: 25;
+
 }
 </style>

@@ -1,4 +1,495 @@
 [
+    
+    {
+        "_id": {
+            "$oid": "60642d8b2cb404233ca0cb5f"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-1_5a3de10404564e9f8e7d902f03663c40_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_177c4b9cf59d4a60b65c722224cecbed_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_7df0965bbe41413c8d88ffbca01346c0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_fb8b56d84af94412a90c7bb3bad114ac_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_605293baff8546fab7e78e25a810eac2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_9c76c4d47fe44ca3a7546f3c3314ed84_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_11c31b1144214f248caa0d1247975e2f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_16455d403b6b4f34bb59131f6d6e8266_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-1_5a3de10404564e9f8e7d902f03663c40_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_177c4b9cf59d4a60b65c722224cecbed_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_7df0965bbe41413c8d88ffbca01346c0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_fb8b56d84af94412a90c7bb3bad114ac_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_605293baff8546fab7e78e25a810eac2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_9c76c4d47fe44ca3a7546f3c3314ed84_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_11c31b1144214f248caa0d1247975e2f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_16455d403b6b4f34bb59131f6d6e8266_master.jpg"
+        ],
+        "name": "ÁO SƠ MI OVERSIZE",
+        "sku": " ASM00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: ÁO SƠ MI OVERSIZE. Đặc tính: Trẻ trung - Năng động. Thể loại: Trang phục dạo phố, công sở. Size: S/M/L. Chất liệu: Poplin tổng hợp. Màu sắc: Trắng kem - Xanh. Lưu ý: Không ngâm, Không giặt chung quần áo dễ ra màu. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642d8f2cb404233ca0cb60"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/trang-4_d33646fe3c2043b9a28d716267e9b69a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_0003b414404d4540bf83ef4222f427be_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_043e6e28b69d4bb794546b42610b4169_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_f49c991dc3294cc99e5932c1a6f4449b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_592836eb6967409baa68322b97183f43_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_0db1be08ca73447e8314154f63a999a6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_ebdb51e59f794ecab5dfa617c64dbff4_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_210d372747974087abe7c9418f70d005_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/trang-4_d33646fe3c2043b9a28d716267e9b69a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_0003b414404d4540bf83ef4222f427be_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_043e6e28b69d4bb794546b42610b4169_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_f49c991dc3294cc99e5932c1a6f4449b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_592836eb6967409baa68322b97183f43_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_0db1be08ca73447e8314154f63a999a6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_ebdb51e59f794ecab5dfa617c64dbff4_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_210d372747974087abe7c9418f70d005_master.jpg"
+        ],
+        "name": "ÁO BÈO TAY NƠ CỔ",
+        "sku": " AKI00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: ÁO BÈO TAY NƠ CỔ. Đặc tính: Sang trọng - Cổ điển - Thanh lịch. Thể loại: Trang phục công sở, tiệc. Size: S/M/L. Chất liệu: Silk tổng hợp. Màu sắc: Trắng - Xanh. Lưu ý: Ủi nhiệt độ thấp, không ngâm, giặt tay. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    
+    {
+        "_id": {
+            "$oid": "60642d962cb404233ca0cb62"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/trang-kem-4_af4400e4c8144eb296d93f4e3e1933b5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-2_d04e5d30fc6f44aa88906320a1ce92bb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-1_62554cd1c76d49589e4f48281a6772a9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-3_1459fadd07e245f0b77cd9d9ad69e777_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_den_1_a594f26edd2543f7800c982473abc4cc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_den_2_f086e64728634774a33ee3c9c6de0928_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-4_2ab513879cfb4bb79049ba1737fcfefa_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-3_f5d00b4808aa4d4ebdb0c300e1e8580e_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/trang-kem-4_af4400e4c8144eb296d93f4e3e1933b5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-2_d04e5d30fc6f44aa88906320a1ce92bb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-1_62554cd1c76d49589e4f48281a6772a9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-3_1459fadd07e245f0b77cd9d9ad69e777_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_den_1_a594f26edd2543f7800c982473abc4cc_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_den_2_f086e64728634774a33ee3c9c6de0928_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-4_2ab513879cfb4bb79049ba1737fcfefa_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-den-3_f5d00b4808aa4d4ebdb0c300e1e8580e_master.jpg"
+        ],
+        "name": "ÁO KIỂU BÈO TAY",
+        "sku": " AKI00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: ÁO KIỂU BÈO TAY. Đặc tính: Cổ điển - Thanh lịch - Sang trọng - Trẻ trung. Thể loại: Trang phục thường ngày, công sở, đi tiệc. Size: S/M/L Màu sắc: Xanh đen - Trắng kem. Chất liệu: Poplin. Lưu ý: Ủi nhiệt độ thấp, không ngâm, không phơi nắng gắt. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642d9a2cb404233ca0cb63"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-2_0a2a41efd5c94c2bac8d8bda33a93c10_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-4_d87f67d964714f57ac38e7c84b5c8a48_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-1_50cc4b00992148fcae4071ff90c3094f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_oliu-3_d8137272fb834396a04fa4e148c50948_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-4_cb95457e6cc94241ab632ba4a7b54331_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-2_dc005249f282439aa98859a908a480f0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-1_b28cc29e36c840c99d967bd7a4e63580_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-3_ee3d61a7c1e64357ab8dd8c33b448d78_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-2_0a2a41efd5c94c2bac8d8bda33a93c10_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-4_d87f67d964714f57ac38e7c84b5c8a48_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-oliu-1_50cc4b00992148fcae4071ff90c3094f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh_oliu-3_d8137272fb834396a04fa4e148c50948_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-4_cb95457e6cc94241ab632ba4a7b54331_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-2_dc005249f282439aa98859a908a480f0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-1_b28cc29e36c840c99d967bd7a4e63580_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-3_ee3d61a7c1e64357ab8dd8c33b448d78_master.jpg"
+        ],
+        "name": "ÁO KIỂU NƠ THẮT",
+        "sku": " AKI00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: ÁO KIỂU NƠ THẮT. Đặc tính: Cổ điển - Thanh lịch - Sang trọng. Thể loại: Trang phục đi tiệc, công sở. Size: S/M/L. Màu sắc: Xanh oliu - Kem Chất liệu: Lụa tổng hợp. Lưu ý: Ủi nhiệt độ thấp, giặt tay, không ngâm, Phơi trong mát. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642d9d2cb404233ca0cb64"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-4_1fea58bded354ee8a2c80fe327152c29_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_8f6fcfca76ab45fd8fb5ce0a7c103c4f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_5bb4803b93164203adf1a4d3f3d0ebce_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_3f1f030051314a619b7992b2e6506322_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_3da524db1724486fbcffc2eba25006e8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_6e876d5f9d294f1c939cd4bb452585e5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_cc9cc647fedc4095acf19475cda7e6d6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_a64fdf167dd34deeab4b7631ac5db740_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-4_1fea58bded354ee8a2c80fe327152c29_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_8f6fcfca76ab45fd8fb5ce0a7c103c4f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_5bb4803b93164203adf1a4d3f3d0ebce_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_3f1f030051314a619b7992b2e6506322_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_3da524db1724486fbcffc2eba25006e8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_6e876d5f9d294f1c939cd4bb452585e5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_cc9cc647fedc4095acf19475cda7e6d6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_a64fdf167dd34deeab4b7631ac5db740_master.jpg"
+        ],
+        "name": "SƠ MI LỤA",
+        "sku": " ASM00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: SƠ MI LỤA. Đặc tính: Cổ điển - Thanh lịch - Sang trọng. Thể loại: Trang phục đi tiệc, công sở, dạo phố. Size: S/M/L. Màu sắc: Xanh - Đen. Chất liệu: Lụa tổng hợp. Lưu ý: Ủi nhiệt độ thấp, giặt tay, không ngâm, Phơi trong mát. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642da42cb404233ca0cb66"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/cam-2_f75b7041bd7f4e38ac8cc2aa344706c0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-4_61ef4d88d0d342ae881241c54a3d6b73_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-1_51fc8fcf1a99410d95089c4b43f1b75b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-3_01c52df9b534473986ee143381bde8e8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_1e0bbfa7e07a4ae28bc8ef7d0006b117_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-5_3f8308ce2002498bac48adc185fc6daf_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_180a28226ef544f5a3285a69e6de5d21_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_0a6cfb8c862f4a328c2c9f24302c5c53_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/cam-2_f75b7041bd7f4e38ac8cc2aa344706c0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-4_61ef4d88d0d342ae881241c54a3d6b73_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-1_51fc8fcf1a99410d95089c4b43f1b75b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/cam-3_01c52df9b534473986ee143381bde8e8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_1e0bbfa7e07a4ae28bc8ef7d0006b117_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-5_3f8308ce2002498bac48adc185fc6daf_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_180a28226ef544f5a3285a69e6de5d21_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_0a6cfb8c862f4a328c2c9f24302c5c53_master.jpg"
+        ],
+        "name": "ÁO KIỂU VAI PHỐI BÈO",
+        "sku": " AKI00",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: ÁO KIỂU VAI PHỐI BÈO. Đặc tính: Cổ điển - Thanh lịch - Sang trọng - Trẻ trung. Thể loại: Trang phục thường ngày, công sở. Size: S/M/L. Màu sắc: Xanh coban - Cam cà rốt. Chất liệu: Poplin. Lưu ý: Ủi nhiệt độ thấp, không ngâm, không phơi nắng gắt. - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642da82cb404233ca0cb67"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/nau-2_47c07dc4350b4240b4ad061ee0afeac6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-4_dc22e0c0cf6f492dab57435cd09d7eeb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-1_13c03b097001434e8d8af952d40710eb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-3_3df0127c6cf649778b6fcf808a4b6a4e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-2_a1870f9368574bfcbee5e730091f5c9f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-4_b2f37aef7f5142df81f7c67811b990e2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-1_acc1529ab22542e18cbc6d68a78fbfe0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-3_e8e47733aa984d89a78e3df54a28a07f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_f97707ee31d94dff81071bb66b581bf8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_8bb8b44626ff4e36b3e87b2306c513b8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_a34de6efc90a46b0877e3fd05bc1cbd9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_c9c131a887cc464eba5b01729af6393a_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/nau-2_47c07dc4350b4240b4ad061ee0afeac6_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-4_dc22e0c0cf6f492dab57435cd09d7eeb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-1_13c03b097001434e8d8af952d40710eb_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-3_3df0127c6cf649778b6fcf808a4b6a4e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-2_a1870f9368574bfcbee5e730091f5c9f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-4_b2f37aef7f5142df81f7c67811b990e2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-1_acc1529ab22542e18cbc6d68a78fbfe0_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-mint-3_e8e47733aa984d89a78e3df54a28a07f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_f97707ee31d94dff81071bb66b581bf8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_8bb8b44626ff4e36b3e87b2306c513b8_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_a34de6efc90a46b0877e3fd05bc1cbd9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_c9c131a887cc464eba5b01729af6393a_master.jpg"
+        ],
+        "name": "Áo thun trơn cổ tim",
+        "sku": " BAC1210106",
+        "price": {
+            "sale": "104,000₫",
+            "old": "149,000₫"
+        },
+        "description": "Miêu tả: Áo thun trơn cổ tim. Size: S/M/L. Đặc tính: Trẻ trung, năng động. Thể loại: Trang phục dạo phố. Chất liệu: Thun tổng hợp. Lưu ý: Tránh ngâm, Ủi nhiệt độ thấp. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dab2cb404233ca0cb68"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-2_3991e4efc20341338831644a0bb068f7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_191cd07310514bb7992a1842d2b3a0ae_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_5598ea8120b04057b98b79777ae3edf9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_c5da9992f7e442d5818fd85af37b3d17_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_86fcfbe8ed5447b4aaf6308afabe78b9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_28aca9c16ff248a1b80989d8d4716b37_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_a97fb55bd2644553a42311fab659991b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_942abc4e59c244008a678bfcf013943d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-3_ceee1144898f47029a5f4ae9a62e780f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-4_1fa74b4ece574c71bc2dcdc747948594_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-2_a489a2a004cd45b9b36fe35cfee7f38f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-6_78cd88ce114943f5b1540edf175af7e4_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-2_3991e4efc20341338831644a0bb068f7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_191cd07310514bb7992a1842d2b3a0ae_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_5598ea8120b04057b98b79777ae3edf9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_c5da9992f7e442d5818fd85af37b3d17_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_86fcfbe8ed5447b4aaf6308afabe78b9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_28aca9c16ff248a1b80989d8d4716b37_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_a97fb55bd2644553a42311fab659991b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_942abc4e59c244008a678bfcf013943d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-3_ceee1144898f47029a5f4ae9a62e780f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-4_1fa74b4ece574c71bc2dcdc747948594_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-2_a489a2a004cd45b9b36fe35cfee7f38f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-kem-6_78cd88ce114943f5b1540edf175af7e4_master.jpg"
+        ],
+        "name": "Áo thun trơn cổ tròn",
+        "sku": " BAC1210106",
+        "price": {
+            "sale": "104,000₫",
+            "old": "149,000₫"
+        },
+        "description": "Miêu tả: Áo thun trơn cổ tròn. Size: S/M/L. Đặc tính: Trẻ trung, năng động. Thể loại: Trang phục dạo phố. Chất liệu: Thun tổng hợp. Lưu ý: Tránh ngâm, Ủi nhiệt độ thấp. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dae2cb404233ca0cb69"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/vang-2_bdd5a67fda774034b201aced5adbc81e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-4_3cd52226c5074488ae4172ad0c20c2e3_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-1_37cb1d5a6e3d48aebeec1ed7ab933526_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-3_48f833f1e97d4a7ea34beab6a48a0950_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-2_b38d51a9f97e430c9cb3bb58a90e8442_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-3_44b2b4897d7c4c098f47097252ad56e5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-1_d4b253f17dbc47faa5d189525d8b6222_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-4_66b838979f97452b8e07c30e210aebf9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_25147956d9d043eca956777048a4ef67_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_fdb836f146b14a04828b4d5267fee095_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_dafb840357e041158453913a6f8bba73_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/vang-2_bdd5a67fda774034b201aced5adbc81e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-4_3cd52226c5074488ae4172ad0c20c2e3_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-1_37cb1d5a6e3d48aebeec1ed7ab933526_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-3_48f833f1e97d4a7ea34beab6a48a0950_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-2_b38d51a9f97e430c9cb3bb58a90e8442_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-3_44b2b4897d7c4c098f47097252ad56e5_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-1_d4b253f17dbc47faa5d189525d8b6222_master.jpg",
+            "https://product.hstatic.net/200000000131/product/kem-4_66b838979f97452b8e07c30e210aebf9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_25147956d9d043eca956777048a4ef67_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_fdb836f146b14a04828b4d5267fee095_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_dafb840357e041158453913a6f8bba73_master.jpg"
+        ],
+        "name": "ÁO LỤA KIỂU NƠ CỘT",
+        "sku": " CMC1210105",
+        "price": {
+            "sale": "251,000₫",
+            "old": "359,000₫"
+        },
+        "description": "Miêu tả: ÁO LỤA KIỂU NƠ CỘT. Đặc tính: Cổ điển - Sang trọng. Thể loại: Trang phục công sở, tiệc. Size: S/M/L. Chất liệu: Satin tổng hợp. Màu sắc: Xanh - Kem - Vàng. Lưu ý: Ủi nhiệt độ thấp, giặt tay. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642db32cb404233ca0cb6a"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/bong-hong-4_2b28b728465547458702278cb0901b86_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-hong-1_d45b338d5e2349a6bae503d23f0e36fe_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-hong-3_f9ac9fc7877248e893c4a18ec8004e86_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-1_99fdbdd7473c4e55bdd77eca043ec3fa_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-4_90b8c100ac544b838441c61310315d45_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-2_a11e5d9d68b84f88821eed12688b184e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-3_a396dc1cbaf14b1cb83c8fae5f973f6b_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/bong-hong-2_f5d55f3d574f452c89f4f8b104b58d04_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-hong-4_2b28b728465547458702278cb0901b86_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-hong-1_d45b338d5e2349a6bae503d23f0e36fe_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-hong-3_f9ac9fc7877248e893c4a18ec8004e86_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-1_99fdbdd7473c4e55bdd77eca043ec3fa_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-4_90b8c100ac544b838441c61310315d45_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-2_a11e5d9d68b84f88821eed12688b184e_master.jpg",
+            "https://product.hstatic.net/200000000131/product/bong-do-3_a396dc1cbaf14b1cb83c8fae5f973f6b_master.jpg"
+        ],
+        "name": "ÁO KIỂU IN HOA",
+        "sku": " BAS1210106",
+        "price": {
+            "sale": "215,000₫",
+            "old": "359,000₫"
+        },
+        "description": "Miêu tả: Áo kiểu in hoa. Đặc tính: Cổ điển - Thanh lịch. Thể loại: Trang phục công sở, dạo phố. Size: S/M/L. Chất liệu: Voan Musli. Màu sắc: Bông hồng - Bông đỏ. Lưu ý: Giặt tay, không ngâm. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642db62cb404233ca0cb6b"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/trang-2_3f26d6396b544db88cf3f7632bac731b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_e1b0169fe79c467191c1fa472b9e5c79_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_4d4c92e7f9dc43f988b1011028bbbbec_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_b1bbf1a614c646519cc817fc3984a3b7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_ea3da0884f2b4496a2ea275fc926fc71_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_9cf6950396a741c5a5ba4b8dd8dd789f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_aa3dc30389ca4a54b49a3043840bd423_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_f23eb9b705e2417a8807234418ee34b0_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/trang-2_3f26d6396b544db88cf3f7632bac731b_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_e1b0169fe79c467191c1fa472b9e5c79_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_4d4c92e7f9dc43f988b1011028bbbbec_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_b1bbf1a614c646519cc817fc3984a3b7_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-4_ea3da0884f2b4496a2ea275fc926fc71_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-2_9cf6950396a741c5a5ba4b8dd8dd789f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-1_aa3dc30389ca4a54b49a3043840bd423_master.jpg",
+            "https://product.hstatic.net/200000000131/product/den-3_f23eb9b705e2417a8807234418ee34b0_master.jpg"
+        ],
+        "name": "ÁO THUN RIB",
+        "sku": " BAS1210104",
+        "price": {
+            "sale": "181,000₫",
+            "old": "259,000₫"
+        },
+        "description": "Miêu tả: ÁO THUN RIB. Đặc tính: Thanh lịch - Hiện đại - Trẻ trung. Thể loại: Trang phục thường nhật, công sở, dạo phố. Màu sắc: Trắng, đen. Chất liệu: Thun dệt Rib-knit. Lưu ý: Hạn chế ngâm, giặt tay. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642db92cb404233ca0cb6c"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-2_5e71cb5c45534fa2a7b0e43a711aef2d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_4c90facd6f01403e96d87331df0ed241_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_c2decdbf1f9b4147843efaf3ef609801_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_de5ec13654604f578dba6ceeade170d2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_beedeaca8f4042be879c2e8067d17881_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_64e654e21e33431ab44fdced9e528233_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_c313995c87d0480e9ce32a64f6875b1d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_0269b6d38ef54427be0a8d000505964a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_33f62de58f554fe796dca0b635581785_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_c211405bd6554989a8439b7d1c94c622_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_e091295250b74c3f9b38a41ab6931e34_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_0d948aba764546f0bc9705b935c4c104_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-1_879ffb7ae7e84929b3eec1de86b0fa85_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-2_ff87d42d49014bd493c64e98e495c617_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-3_9c6648c7f5464b2ba11dccc5ede4c8ed_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-2_5e71cb5c45534fa2a7b0e43a711aef2d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_4c90facd6f01403e96d87331df0ed241_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_c2decdbf1f9b4147843efaf3ef609801_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_de5ec13654604f578dba6ceeade170d2_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-2_beedeaca8f4042be879c2e8067d17881_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-1_64e654e21e33431ab44fdced9e528233_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-3_c313995c87d0480e9ce32a64f6875b1d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/hong-4_0269b6d38ef54427be0a8d000505964a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-1_33f62de58f554fe796dca0b635581785_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-2_c211405bd6554989a8439b7d1c94c622_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-3_e091295250b74c3f9b38a41ab6931e34_master.jpg",
+            "https://product.hstatic.net/200000000131/product/trang-4_0d948aba764546f0bc9705b935c4c104_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-1_879ffb7ae7e84929b3eec1de86b0fa85_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-2_ff87d42d49014bd493c64e98e495c617_master.jpg",
+            "https://product.hstatic.net/200000000131/product/vang-3_9c6648c7f5464b2ba11dccc5ede4c8ed_master.jpg"
+        ],
+        "name": "Áo tay dài cột dây",
+        "sku": " BAC1210104",
+        "price": {
+            "sale": "279,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: Áo tay dài cột dây. Size: S/M/L. Đặc tính: Trẻ trung - hiện đại. Thể loại: Trang phục dạo phố - Đi làm. Màu sắc: Xanh - Vàng - Trắng  - Hồng. Chất liệu: Vải voan hoa xanh nhí, vải voan hoa vàng nhí, vải voan hoa trắng, vải lót tơ hồng. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dbd2cb404233ca0cb6d"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/nau-3_cb7e9ed558fa40f0b93e99cc6bd8c359_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-1_0e8edfa18bc84791b234b8490f3ecb6a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-4_63189b22e11049488772909e3496206f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-2_b8d0f96f3e3f4e1c930643f356113a10_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_5f91613659ed463299846e1b770a81a3_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_932890731ebf44528097fcdca2a6648d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_a3f2e09393c647c5a8c9497a32365887_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_8701e0e126c747b1a623a469c3eee6b2_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/nau-3_cb7e9ed558fa40f0b93e99cc6bd8c359_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-1_0e8edfa18bc84791b234b8490f3ecb6a_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-4_63189b22e11049488772909e3496206f_master.jpg",
+            "https://product.hstatic.net/200000000131/product/nau-2_b8d0f96f3e3f4e1c930643f356113a10_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_5f91613659ed463299846e1b770a81a3_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-2_932890731ebf44528097fcdca2a6648d_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_a3f2e09393c647c5a8c9497a32365887_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_8701e0e126c747b1a623a469c3eee6b2_master.jpg"
+        ],
+        "name": "Áo khoác blazer 4 nút",
+        "sku": " CMS1210103",
+        "price": {
+            "sale": "559,000₫",
+            "old": "799,000₫"
+        },
+        "description": "Miêu tả: Áo khoác blazer 4 nút. Size: S/M. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục đi làm. Màu sắc: Nâu - Xanh. Chất liệu: Rayon wool. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "60642dc02cb404233ca0cb6e"
+        },
+        "images": [
+            "https://product.hstatic.net/200000000131/product/xanh-2_b3154257554543bbb9815c22ab3639d9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_193655444efd4c1694e8ada841b81630_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_f9228c8a92a246cf8126c51aac923261_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_4641dc4113894a55b31d27b024b0a76f_master.jpg",
+            "",
+            "https://product.hstatic.net/200000000131/product/xanh-2_b3154257554543bbb9815c22ab3639d9_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-1_193655444efd4c1694e8ada841b81630_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-3_f9228c8a92a246cf8126c51aac923261_master.jpg",
+            "https://product.hstatic.net/200000000131/product/xanh-4_4641dc4113894a55b31d27b024b0a76f_master.jpg"
+        ],
+        "name": "Áo sơ mi cổ tàu chấm bi",
+        "sku": " CMS1201204",
+        "price": {
+            "sale": "239,000₫",
+            "old": "399,000₫"
+        },
+        "description": "Miêu tả: Áo sơ mi cổ tàu chấm bi. Size: S/M/L. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục đi làm. Màu sắc: Xanh. Chất liệu: Voan chấm bi nổi. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "category": "Áo",
+        "__v": 0
+    },
     {
         "_id": {
             "$oid": "60642dc22cb404233ca0cb6f"
@@ -36,7 +527,7 @@
             "sale": "179,000₫",
             "old": "359,000₫"
         },
-        "description": "Miêu tả: Áo kiểu dài tay. Size: S/M/L. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục dạo phố, đi làm. Màu sắc: Xanh đen - Xanh olive. Chất liệu: Lụa. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
+        "description": "Miêu tả: Áo kiểu dài tay. Size: S/M/L. Đặc tính: Thanh lịch - hiện đại. Thể loại: Trang phục dạo phố, đi làm. Màu sắc: Xanh đen - Xanh olive - Xanh xi măng. Chất liệu: Lụa. Số đo mẫu nữ: Chiều cao: 168 cm. Số đo 3 vòng: 83 - 59 - 86 (Mặc size S). - Giặt tay bằng nước lạnh - Không ngâm, không tẩy - Giặt riêng các sản phẩm khác màu - Không vắt.  - Là ủi ở nhiệt độ thấp. Khuyến khích giặt khô.",
         "category": "Áo",
         "__v": 0
     },

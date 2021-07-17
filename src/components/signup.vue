@@ -14,28 +14,28 @@
         <StackLayout class="container">
             <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/id-card.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="nameInput" hint="Your name"  class="form-input" />
+            <TextField  color="black"  v-model="nameInput" hint="Your name"  class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/user.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
+            <TextField color="black"  v-model="usernameInput" hint="User name"  autocorrect="false" autocapitalizationType="none" class="form-input" />
           </FlexboxLayout>
 
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="passwordInput" hint="Password" secure="true" class="form-input" />
+            <TextField color="black" v-model="passwordInput" hint="Password" secure="true" class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/secure.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="repasswordInput" hint="Re-Password" secure="true" class="form-input" />
+            <TextField color="black" v-model="repasswordInput" hint="Re-Password" secure="true" class="form-input" />
           </FlexboxLayout>
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/assets/images/icon/mobile-phone-popular-model-nexus-5.png" width="20" height="20" class="icon-margin" />
-            <TextField v-model="phoneInput" hint="Number phone" class="form-input" />
+            <TextField color="black" v-model="phoneInput" hint="Number phone" class="form-input" />
           </FlexboxLayout>
         
 
-          <Button text="Sign up" @tap="onButtonTap" class="my-button" />
+          <Button backgroundColor="#4b4b4b" color="white" text="Sign up" @tap="onButtonTap" class="my-button" />
 
           <FlexboxLayout alignItems="center" justifyContent="space-between" class="auth-buttons">
             <Label horizontalAlignment="left" @tap= "gotologin" text="Back to login" />
@@ -141,8 +141,7 @@ export default {
     margin-right: 10;
   }
   .my-button {
-    background-color: #4BD5DC;
-    color: rgb(0, 0, 0);
+    
     font-weight: bold;
     border-radius: 25;
     padding-top: 14;

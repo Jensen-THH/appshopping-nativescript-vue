@@ -9,7 +9,7 @@
      
 
 
-    <GridLayout rows="*" columns="*" >
+    <GridLayout rows="*" columns="*"  v-if="this.$store.state.infouser.name != undefined" >
       <DockLayout stretchLastChild="true" backgroundColor="#ffffff">
       <Footer dock="bottom"></Footer>
         <GridLayout
@@ -103,12 +103,23 @@
 
       </DockLayout>
     </GridLayout>
+        <GridLayout v-else rows="*" columns="*">
+  <DockLayout stretchLastChild="true">
+      <FlexboxLayout dock="bottom" alignItems="center" justifyContent="space-between" padding="5">
+                <Button backgroundColor="#4d4d4d" class="btn"  color="white"  margin="10"  horizontalAlignment="left" width="auto"  text="Sign in" @tap="gotosignin" />
+                <Button backgroundColor="#4d4d4d" class="btn"  color="white" margin="10" horizontalAlignment="right" width="auto"  text="Sign up" @tap="gotosignup" />
+            </FlexboxLayout>
+    <Label fontSize="20" textWrap="true" textAlign="center" class="text" text="Bạn chưa đăng nhập hãy đăng nhập nào!"/>
+  </DockLayout>
+    </GridLayout>
   </Page>
 </template>
       
 <script>
 // var frameModule = require("ui/frame");
 // import Footer from './include/footer.vue'
+import login from './signin.vue';
+import signup from './signup.vue'
 import cart from './cart.vue'
 import app from './App.vue'
 import product  from './allproduct/products.vue'
@@ -130,7 +141,22 @@ export default {
     }
   },
   methods:{
-    
+    gotosignin(){
+                this.$navigateTo(login,{clearHistory:true,
+                   transition: {
+                    name: "slideLeft",
+                    duration: 300,
+                    curve: "easeIn",
+                },})
+            },
+            gotosignup(){
+                this.$navigateTo(signup,{clearHistory:true,
+                   transition: {
+                    name: "slideLeft",
+                    duration: 300,
+                    curve: "easeIn",
+                },})
+            },
      gotoproduct(item){
        console.log(item.price)
       this.$navigateTo(product, {props :{product:item},
@@ -168,7 +194,7 @@ export default {
       });
     },
       
-        onSwipeStarted({ data, object }) {
+    onSwipeStarted({ data, object }) {
       console.log(`Swipe started`);
       const swipeLimits = data.swipeLimits;
       const swipeView = object;
@@ -198,9 +224,7 @@ export default {
         this.$refs.listView.notifySwipeToExecuteFinished();
       });
     },
-    onNavigationButtonTap() {
-      Frame.topmost().goBack();
-    },
+  
   }
 };
 </script>
@@ -271,5 +295,10 @@ GridLayout {
 .empty{
     padding-top: 300;
     text-align: center;
+}
+.text{
+  padding-top: 250;
+  text-align: center;
+  margin: 20;
 }
 </style>

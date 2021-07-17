@@ -15,11 +15,11 @@
             </RadDataForm>
 
                 <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
-                    <Button backgroundColor="#4d4d4d" class="btn"  color="white" @tap="giaohang"  horizontalAlignment="left" fontWeight="bold" text="Giao hàng" width="auto" textWrap="true" />
+                    <Button backgroundColor="gray" class="btn"  color="white" @tap="giaohang"  horizontalAlignment="left" fontWeight="bold" text="Giao hàng" width="auto"  />
                     <Label  horizontalAlignment="right" class="price-sale" :text="ship" fontSize="15" paddingRight="20" textWrap="true" />
                 </FlexboxLayout>
                 <FlexboxLayout alignItems="center" justifyContent="space-between" padding="5">
-                    <Button backgroundColor="#4d4d4d" class="btn"  color="white" @tap="thanhtoan"  horizontalAlignment="left" fontWeight="bold" text="Thanh toán" width="auto" textWrap="true" />
+                    <Button backgroundColor="gray" class="btn"  color="white" @tap="thanhtoan"  horizontalAlignment="left" fontWeight="bold" text="Thanh toán" width="auto" />
                     <Label  horizontalAlignment="right" class="price-sale" :text="payment" fontSize="15" paddingRight="20" textWrap="true" />
                 </FlexboxLayout>
         </StackLayout>
@@ -49,7 +49,7 @@ import order from './order.vue'
         name: this.$store.state.infouser.name,
         age: 20,
         email: 'email@gmail.com',
-        phone: 0, 
+        phone: this.$store.state.infouser.phone, 
         city: 'City',
         street: 'Street',
       }
@@ -75,7 +75,7 @@ import order from './order.vue'
     },
     send(){
         var p =this.person
-        if (p.name != undefined && p.age != '' &&  p.email != '' && p.phone!= '' &&  p.city!= '' &&  p.street!= '' && this.ship != '' && this.payment != ''){
+        if (p.name != undefined && p.age != '' &&  p.email != '' && p.phone!= 0 &&  p.city!= '' &&  p.street!= '' && this.ship != '' && this.payment != ''){
                 // if(p.name == undefined){
                 p.ship = this.ship
                 p.payment = this.payment

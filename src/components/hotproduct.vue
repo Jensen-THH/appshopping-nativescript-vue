@@ -4,7 +4,7 @@
      <NavigationButton text="Back" android.systemIcon="ic_menu_back"  @tap="$navigateBack" />
      <!-- <ActionItem icon="" text="Left" ios.position="left" @tap="" /> -->
      <Image  src="~/assets/images/icon/logo.png" class="logo" stretch="aspectFill" />
-     <ActionItem text="Hot" ios.position="right" />
+     <ActionItem text="Sale" ios.position="right" />
    </ActionBar>
      
 
@@ -21,7 +21,7 @@
         verticalAlignment="top"
       >
 
-        <Label  class="love" text="DANH SÁCH HOT" col="0" margin="10" />
+        <Label textAlign="center" class="love" text="NO SALE ! :>" col="0" textWrap="true" width="100%" />
       </GridLayout>
 
       <ScrollView>
@@ -120,6 +120,8 @@ ActionBar {
 .love{
     font-size: 18;
     padding: 10;
+    padding-top: 300;
+    text-align: center;
 }
 
 </style>
